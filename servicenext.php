@@ -1,12 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php error_reporting(E_ALL ^ E_NOTICE); ?>
+        <?php
+            $servername = "localhost";
+            $username = "root";
+            $password = "";
+            $dbname = "localtradestreet";
+		
+		$id = $subcategory = $mondaystart = $mondayend = $tuestart = $tueend = $wenstart = $wenend = $thustart = $thusend = $fristart = $friend = $stastart = $staend = $sunstart = $sunend =  
+        $logo = $banner = $description = $service = $locality = "";
+        
+
+        // Create Connection
+            $conn = new mysqli ($servername, $username, $password, $dbname);
+
+        //Check Connection
+            if ($conn->connect_error)
+            {
+                die("Connection Failed. " .$conn->connect_error);
+            }else
+
+        //Taking Values form User
+        $id = $_REQUEST['id'];
+        $subcategory = $_REQUEST['subcategory'];
+        $mondaystart = $_REQUEST['mondaystart'];
+        $mondayend = $_REQUEST['mondayend'];
+        $tuestart= $_REQUEST['tuestart'];
+        $tueend = $_REQUEST['tueend'];
+        $wedstart = $_REQUEST['wedstart'];
+        $wedend = $_REQUEST['wedend'];
+        $thustart = $_REQUEST['thustart'];
+        $thusend = $_REQUEST['thusend'];
+        $fristart = $_REQUEST['fristart'];
+        $friend = $_REQUEST['friend'];
+        $stastart = $_REQUEST['stastart'];
+        $staend = $_REQUEST['staend'];
+        $sunstart = $_REQUEST['sunstart'];
+        $sunend = $_REQUEST['sunend'];
+        $logo = $_REQUEST['logo'];
+        $banner = $_REQUEST['banner'];
+        $description = $_REQUEST['description'];
+        $service = $_REQUEST['service'];
+        $locality = $_REQUEST['locality'];
+        
+        
+        //Performing Insert
+        $sql = "INSERT INTO servicenextdata VALUES ('$id','$subcategory','$mondaystart','$mondayend','$tuestart','$tueend','$wedstart','$wedend',
+        '$thustart','$thusend','$fristart','$friend','$stastart','$staend','$sunstart','$sunend','$logo','$banner','$description','$service','$locality')";
+
+        if(mysqli_query($conn, $sql))
+        {
+            //  echo "Data Stored Successfully:";
+        //  echo nl2br("\n $id \n $title \n $category \n $subcategory \n $oname \n $address \n $pincode \n $logo \n $banner");
+        }else
+            echo "Error Storing Data $sql. " .mysqli_error($conn);
+        
+        mysqli_close($conn);
+        
+        ?>
+
+
+
+
+
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>LTS Contact</title>
+    <title>LTS-Submit Listing</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="Free php Templates" name="keywords">
+    <meta content="Free php Templates" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -24,6 +87,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    
 </head>
 
 <body>
@@ -40,19 +105,19 @@
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-danger px-3" href="https://www.facebook.com/profile.php?id=100064148859759">
+                        <a class="px-3" style="color:#ff1717" href="https://www.facebook.com/avestantechnologies/">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a class="text-danger px-3" href="https://twitter.com/LocalTradeStre2">
+                        <a class="px-3" style="color:#ff1717" href="https://twitter.com/LocalTradeStre2">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a class="text-danger px-3" href="https://www.linkedin.com/in/local-trade-street-34648a248/">
+                        <a class="px-3" style="color:#ff1717" href="https://www.linkedin.com/in/local-trade-street-34648a248/">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a class="text-danger px-3" href="https://www.instagram.com/localtradestreets/">
+                        <a class="px-3" style="color:#ff1717" href="https://www.instagram.com/localtradestreets/">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a class="text-danger pl-3" href="">
+                        <a class="pl-3 " style="color:#ff1717" href="">
                             <i class="fab fa-youtube"></i>
                         </a>
                     </div>
@@ -68,48 +133,44 @@
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
                 <a href="" class="navbar-brand">
-                    <h1 class="m-0" ><img src="img/logo.jpeg" style="border-radius:50% ;"><span class="text-dark">Local Trade</span><span style="color:#ff1717 ;"> Street</span></h1>
+                    <h1 class="m-0" style="color:#ff1717;"><img src="img/logo.jpeg " style="border-radius: 50%;"><span class="text-dark">Local Trade </span>Street</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        <!-- <a href="package.html" class="nav-item nav-link">Tour Packages</a>
-                        <div class="nav-item dropdown">
+                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                        <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu border-0 rounded-0 m-0">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
-                                <a href="destination.html" class="dropdown-item">Destination</a>
-                                <a href="guide.html" class="dropdown-item">Travel Guides</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="blog.php" class="dropdown-item">Blog Grid</a>
+                                <a href="single.php" class="dropdown-item">Blog Detail</a>
+                                <a href="destination.php" class="dropdown-item">Destination</a>
+                                <a href="guide.php" class="dropdown-item">Travel Guides</a>
+                                <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                             </div>
                         </div> -->
-                        <a href="package.html" class="nav-item nav-link active">Login</a>
-                        <a href="service.html" class="nav-item nav-link">Submit Listing</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="package.php" class="nav-item nav-link">Login</a>
+                        <a href="service.php" class="nav-item nav-link">Submit Listing</a>    
                     </div>
                 </div>
             </nav>
         </div>
     </div>
     <!-- Navbar End -->
-
-
-    <!-- carousal start -->
-
-
+    
+    <!-- Carousel Start -->
     <div class="container-fluid p-0">
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="img/l1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h4 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h4>
+                        <div class="p-3 mt-3" style="max-width: 900px;">
+                            <!-- <h4 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h4> -->
                             <!-- <h1 class="text-white">
                                 Search and apply to millions of Listings</h1>
                             <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
@@ -137,7 +198,7 @@
                                                             <option value="11">Security Services</option>
                                                             <option value="12">Tours & travels</option>
                                                             <option value="13">Insurance</option>
-  
+
                                                         </select>
                                                     </div>
                                                 </div>
@@ -181,10 +242,10 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="img/l2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;"> -->
-                            <h4 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h4>
+                        <div class="p-3 mt-3" style="max-width: 900px;"> 
+                            <!-- <h6 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h6> -->
                             <!-- <h1 class="text-white-50">
                                 Search and apply to millions of Listings</h1>
                             <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
@@ -212,7 +273,7 @@
                                                             <option value="11">Security Services</option>
                                                             <option value="12">Tours & travels</option>
                                                             <option value="13">Insurance</option>
-  
+
                                                         </select>
                                                     </div>
                                                 </div>
@@ -268,109 +329,158 @@
             </a>
         </div>
     </div>
-     <!-- Carousel End -->
-    <!-- Booking Start -->
-    <!-- <div class="container-fluid booking mt-5 pb-5">
-        <div class="container pb-5">
-            <div class="bg-light shadow" style="padding: 30px;">
-                <div class="row align-items-center" style="min-height: 60px;">
-                    <div class="col-md-10">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Destination</option>
-                                        <option value="1">Destination 1</option>
-                                        <option value="2">Destination 1</option>
-                                        <option value="3">Destination 1</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Duration</option>
-                                        <option value="1">Duration 1</option>
-                                        <option value="2">Duration 1</option>
-                                        <option value="3">Duration 1</option>
-                                    </select>
-                                </div>
-                            </div>
+ <!-- Carousel End -->
+
+
+    <!-- Blog Start -->
+    <div class="container py-10  mt-3 mb-5" >
+        <div class="container ">
+               
+            <h3><strong> Submit Listing </strong></h3>
+            <hr style="background-color:red ;">
+              
+            <div class="row mt-2">
+                <div class="col-lg " style="background-color: #f5f5f5;"> 
+                    <div class="well ">
+                    <form method = "post" action="servicenext.php">
+                    <div class="form-group category">
+                        <h4><label class="control-label text-danger">Categories <span class="required-feild">*</span></label></h4>
+                        
+                        <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-label">Sub-Category</label>
+                        &nbsp; &nbsp; &nbsp;&nbsp;
+                       <input type="text" id="scategory" name="subcategory"/>
+                        <br/> <br/>
+                    <div class="form-group">
+                        <label class="control-label"><h3>Opening Hours</h3></label>
+                        <br><br/>
+                        <table style="margin:auto; " class="table table-bordered">
+                        <tbody>
+                        <tr><td>Day</td>
+                                <td>Start</td>
+                                <td>End</td>
+                        </tr>
+                        <tr><td>Mon</td>
+                            <td><input type="text" name="hours[Mon][]" id="hours_start" class="form-control " placeholder="Hours" value="9:00 am" name="mondaystart"></td>
+                            <td><input type="text" name="hours[Mon][]" id="hours_end" class="form-control " placeholder="Hours" value="6:30 pm" name="mondayend"></td>
+                        </tr>
+                         <tr><td>Tue</td>
+                            <td><input type="text" name="hours[Tue][]" id="hours_start" class="form-control " placeholder="Hours" value="9:00 am" name="tuestart"></td>
+                            <td><input type="text" name="hours[Tue][]" id="hours_end" class="form-control " placeholder="Hours" value="6:30 pm" name="tueend"></td>
+                        </tr>
+                    <tr><td>Wed</td>
+                            <td><input type="text" name="hours[Wed][]" id="hours_start" class="form-control " placeholder="Hours" value="9:00 am" name="wedstart"></td>
+                            <td><input type="text" name="hours[Wed][]" id="hours_end" class="form-control " placeholder="Hours" value="6:30 pm" name="wedend"></td>
+                        </tr>
+                                                        <tr><td>Thu</td>
+                            <td><input type="text" name="hours[Thu][]" id="hours_start" class="form-control " placeholder="Hours" value="9:00 am" name="thustart"></td>
+                            <td><input type="text" name="hours[Thu][]" id="hours_end" class="form-control " placeholder="Hours" value="6:30 pm" name="thusend"></td>
+                        </tr>
+                                                        <tr><td>Fri</td>
+                            <td><input type="text" name="hours[Fri][]" id="hours_start" class="form-control " placeholder="Hours" value="9:00 am" name="fristart"></td>
+                            <td><input type="text" name="hours[Fri][]" id="hours_end" class="form-control " placeholder="Hours" value="6:30 pm" name="friend"></td>
+                        </tr>
+                                                        <tr><td>Sat</td>
+                            <td><input type="text" name="hours[Sat][]" id="hours_start" class="form-control " placeholder="Hours" value="9:00 am" name="stastart"></td>
+                            <td><input type="text" name="hours[Sat][]" id="hours_end" class="form-control " placeholder="Hours" value="6:30 pm" name="staend"></td>
+                        </tr>
+                                                        <tr><td>Sun</td>
+                            <td><input type="text" name="hours[Sun][]" id="hours_start" class="form-control " placeholder="Hours" value="Close"name="sunstart"></td>
+                            <td><input type="text" name="hours[Sun][]" id="hours_end" class="form-control " placeholder="Hours" value="Close" name="sunend"></td>
+                        </tr>
+                        
+                        
+                        </tbody>
+                        </table>  
+                    </div><!--form-group-->
+                    
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group row"> 
+                        <div class="bussiness-logo-upload col-xs-6"> 
+                           <label class="control-label col-sm-12" name="logo">Upload Logo <span class="required-feild">*</span> &nbsp;<small>600 X 600px<br>Size upto 2MB</small></label>
+                            <div class="col-sm-6"> 
+                                <div class="img-upload-picker"><div class="form-control btn btn-default btn-block img-upload-btn"><i class="glyphicon glyphicon-plus"></i><input type="file" name="logo"></div></div>
+                            </div> 
+                            <div class="clearfix"></div>									<label for="upload" class="error"></label><div class="clearfix"></div> 
+                        </div> 
+                        <div class="bussiness-banner-upload col-xs-6"> 
+                           <label class="control-label col-sm-12" name="banner">Upload Banner &nbsp;<small>1000 X 400px<br>Size upto 2MB</small></label>
+                            <div class="col-sm-6"> 
+                                <div class="img-banner-picker"><div class="form-control btn btn-default btn-block img-upload-btn"><i class="glyphicon glyphicon-plus"></i><input type="file" name="banner"></div></div>
+                            </div> 
+                            <div class="clearfix"></div><div class="clearfix"></div> 
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Booking End -->
+                        <div class="clearfix"></div>
+                    </div><!--form-group-->
 
-
-    <!-- Contact Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="text-center mb-3 pb-3">
-                <h6 class="text-danger text-uppercase" style="letter-spacing: 5px;">Contact</h6>
-                <h1>Contact For Any Query</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form bg-white" style="padding: 30px;">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="text-center">
-                                <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    <div class="well ">
+                    <div class="form-group">
+                        <label class="control-label">Description <span class="required-feild">*</span></label>
+                        <div class="clearfix"></div>								<label for="description" class="error"></label><div class="clearfix"></div> 
+                        <textarea class="form-control" rows="3" name="description"></textarea>
+                    </div> 
+                    </div><!--well row-->
+                
+                
+                    <div class="well ">
+                    <div class="form-group">
+                        <label class="control-label">Services <span class="required-feild">*</span></label>
+                        <div class="clearfix"></div>								
+                        <label for="services[]" class="error"></label><div class="clearfix"></div> 
+                        <div class="form-group-options">
+                          
+                           <div class="input-group input-group-option col-md-12 col-xs-12">
+                            <input type="text" name="service" class="form-control" placeholder="Service">
+                            <span class="input-group-addon input-group-addon-remove">
+                             <span class="glyphicon glyphicon-remove"></span>
+                            </span>
+                           </div>
     </div>
-    <!-- Contact End -->
+    
+                    </div><!--form-group-->
+                    </div><!--well row-->
+                    
+                    
+                    <div class="form-group locality">
+                        <label for="inputCategory">Locality</label> 
 
+                        <select class="custom-select px-4" style="height: 47px;"name="subcategory">
+                                                            <option selected>Locality</option>
+                                                            <option value="1">Bagadganj</option>
+                                                            <option value="2">Pardi</option>
+                                                            <option value="3">Chapru Nagar</option>
+                                                            <option value="4">Wardhman Nagar</option>
+                                                            <option value="5">Lakadganj</option>
+                                                            <option value="6">Bardi</option>
+                                                            <option value="7">Manewada</option>
+                                                            <option value="8">Chatrapati Square</option>
+                                                            <option value="9">Kharbi</option>
+                                                            <option value="10">Dighori</option>
+                                                            <option value="11">Sakkardara</option>
+                                                            <option value="12">MAnish Nagar</option>
+                                                            <option value="13">Shantinagar</option>
+                                                            <option value="13">Other</option>
 
+                                                        </select>
+                    </div>
+                    </div><!--form-group-->
+                       
+                </div>
+    </form>
+            </div>
+        </div>
+       
+    </div>
+    <a href="servicenext.php"><button class="btn btn-block py-3 pt-3" style="background-color: #f55b5b; color: black; font-weight: bolder;" type="submit">Save and Continue</button></a>
+                    </div>
+    
+</div>
+                    
+ 
+   
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 py-10 px-md-5 px-lg-10" style="margin-top: 90px;">
+    <div class="container-fluid bg-dark text-white-50  px-md-5 px-lg-10" style="margin-top: 90px;">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5 py-10">
                 <a href="" class="navbar-brand">
@@ -389,20 +499,20 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Destination</a>
-                    <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About</a>
-                    <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact</a>
-                    <a class="text-white-50 mb-2" href="package.html"><i class="fa fa-angle-right mr-2"></i>Login</a>
-                    <!-- <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a> -->
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Submit Listing</a>
+                    <a class="text-white-50 mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white-50 mb-2" href="about.php"><i class="fa fa-angle-right mr-2"></i>About</a>
+                    <a class="text-white-50 mb-2" href="contact.php"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+                    <a class="text-white-50 mb-2" href="package.php"><i class="fa fa-angle-right mr-2"></i>Login</a>
+                    <!-- <a class="text-white-50 mb-2" href=""><i class="fa fa-angle-right mr-2"></i>Login</a>
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a> -->
+                    <a class="text-white-50" href="service.php"><i class="fa fa-angle-right mr-2"></i>Submit Listing</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>IT Park Road, Near Persistent, Gayatri Nagar, Nagpur, Maharashtra 440022</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+91 7058690562</p>
-                <p><i class="fa fa-envelope mr-2"></i>localtradestreetnagpur@gmail.com</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
                 <!-- <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
                 <div class="w-100">
                     <div class="input-group">
@@ -429,7 +539,7 @@
                 </p>
             </div>
             <!-- <div class="col-lg-6 text-center text-md-right">
-                <p class="m-0 text-white-50">Designed by <a href="https://htmlcodex.com">HTML Codex</a>
+                <p class="m-0 text-white-50">Designed by <a href="https://phpcodex.com">php Codex</a>
                 </p>
             </div> -->
         </div>
@@ -438,7 +548,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <a href="#" class="btn btn-lg btn-danger btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -458,4 +568,4 @@
     <script src="js/main.js"></script>
 </body>
 
-</html>
+</php>

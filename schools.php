@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>doctors</title>
+    <title>schools/collages</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free php Templates" name="keywords">
     <meta content="Free php Templates" name="description">
@@ -83,7 +83,7 @@
                     <div class="navbar-nav ml-auto py-0">
                         <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="package.php" class="nav-item nav-link">Login</a>
+                        <a href="login.php" class="nav-item nav-link">Login</a>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
@@ -105,7 +105,7 @@
 
 
 
-    <div class="container-fluid  bgdoc">
+    <div class="container-fluid  bgschool">
         <div class="container">
             <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
                 <h3 class="display-4 text-danger text-uppercase"></h3>
@@ -118,81 +118,78 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-    <!-- Carausal Start -->
-
-    <!-- <div class="container-fluid p-0">
-        <div id="header-carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/doctorsmainimage.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">Dignosis & effective</h4>
-                            <h1 class="display-3 text-white mb-md-4">The Best Hospitals</h1>
-                            <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
-                        <!-- </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/slide2.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">Dignosis & effective</h4>
-                            <h1 class="display-3 text-white mb-md-4">The Best Hospitals</h1>
-                            <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
-                        <!-- </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
-                <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-prev-icon mb-n2"></span>
-                </div>
-            </a>
-            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
-                <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-next-icon mb-n2"></span>
-                </div>
-            </a>
-        </div>
-    </div>  -->
-    <!-- Carousel End -->
-
     
-    <!-- Left and right controls -->
-    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>  -->
-
-<!-- Carausal End -->
-
+    
+   
     <!-- Team Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-3">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <!-- <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;"></h6> -->
-                <h3 class="text" style="color:rgb(16,16,19);">Doctors Categories</h3>
+                <h3 class="text" style ="color:rgb(16,16,19);">Schools/Collages Categories</h3>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <a href="doctsInfo.php"><img class="img-fluid w-100" src="img/surgeon general.jpg" alt="ameran">
+                            <a href="scienceinfo.php"><img class="img-fluid w-100" src="img/science.jfif" alt="ameran">
+                            <!-- <div class="team-social">
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div> --></a>
+                        </div>
+                        
+                        <div class="text-center py-4">
+                           <h5 class="text-truncate">Science Collage</h5>
+                            <!-- <p class="m-0">Designation</p> --></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                    <div class="team-item bg-white mb-4">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/commerce.jpg" alt="surgeon">
+                            <!-- <div class="team-social">
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div> -->
+                        
+                        </div>
+
+
+                        
+                        <div class="text-center py-4">
+                            <h5 class="text-truncate">Commerce Collage</h5>
+                            <!-- <p class="m-0">Designation</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                    <div class="team-item bg-white mb-4">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/dental.jpg" alt="arabic">
+                            <!-- <div class="team-social">
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div> -->
+                        
+                        </div>
+                        <div class="text-center py-4">
+                            <h5 class="text-truncate">Dental Collage</h5>
+                            <!-- <p class="m-0">Designation</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                    <div class="team-item bg-white mb-4">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/law.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -201,15 +198,15 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">General Surgeon</h5>
+                            <h5 class="text-truncate"> Law Collage</h5>
                             <!-- <p class="m-0">Designation</p> -->
-                        </div></a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/ent surgeon.jpg" alt="surgeon">
+                            <img class="img-fluid w-100" src="img/medical1.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -218,7 +215,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">ENT Surgeon</h5>
+                            <h5 class="text-truncate">Medical Collage</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -226,7 +223,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/hepatologist.jpg" alt="arabic">
+                            <img class="img-fluid w-100" src="img/poly1.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -235,7 +232,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Hepotologist</h5>
+                            <h5 class="text-truncate">Polytechnic Institude</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -243,7 +240,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/esic4.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/baby.jpg" alt="continental">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -252,7 +249,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate"> ESIC</h5>
+                            <h5 class="text-truncate">Baby Sitters</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -260,7 +257,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/gastro.jpeg" alt="">
+                            <img class="img-fluid w-100" src="img/convent.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -269,7 +266,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Gastroenterologist</h5>
+                            <h5 class="text-truncate">Convent School</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -277,7 +274,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/physio.jpeg" alt="">
+                            <img class="img-fluid w-100" src="img/daycare.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -286,7 +283,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Physiotherapists</h5>
+                            <h5 class="text-truncate">Day Care Centres</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -294,7 +291,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/piles.jpg" alt="continental">
+                            <img class="img-fluid w-100" src="img/nursary.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -303,7 +300,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Piles</h5>
+                            <h5 class="text-truncate">Nursary School</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -311,7 +308,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/np phychastric.webp" alt="">
+                            <img class="img-fluid w-100" src="img/military.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -320,7 +317,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Psychiatrists</h5>
+                            <h5 class="text-truncate">Military School</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -328,58 +325,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/phycologist.jpg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div> -->
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Psychologist</h5>
-                            <!-- <p class="m-0">Designation</p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/pulmonologist.jpeg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div> -->
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Pulmonologists</h5>
-                            <!-- <p class="m-0">Designation</p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/radioologist.jpg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div> -->
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Radiologist</h5>
-                            <!-- <p class="m-0">Designation</p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/Rheumatology.jpeg" alt="">
+                            <img class="img-fluid w-100" src="img/boarding1.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -388,7 +334,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-3">
-                            <h5 class="text-truncate">Rheumatologist</h5>
+                            <h5 class="text-truncate">Bording School</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -410,7 +356,7 @@
                 <p></p>
                 <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
                 <div class="d-flex justify-content-start">
-                    <a class="btn btn-outline-danger btn-square mr-2" href="https://twiter.com/LocalTradeStre2"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-danger btn-square mr-2" href="https://twitter.com/LocalTradeStre2"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-outline-danger btn-square mr-2" href="https://www.facebook.com/profile.php?id=100064148859759"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-danger btn-square mr-2" href="https://www.linkedin.com/in/local-trade-street-34648a248/"><i class="fab fa-linkedin-in"></i></a>
                     <a class="btn btn-outline-danger btn-square" href="https://www.instagram.com/localtradestreet/"><i class="fab fa-instagram"></i></a>
@@ -423,14 +369,15 @@
                     <!-- <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Destination</a> -->
                     <a class="text-white-50 mb-2" href="about.php"><i class="fa fa-angle-right mr-2"></i>About</a>
                     <a class="text-white-50 mb-2" href="contact.php"><i class="fa fa-angle-right mr-2"></i>Contact</a>
-                    <a class="text-white-50 mb-2" href="package.php"><i class="fa fa-angle-right mr-2"></i>Login</a>
+                    <a class="text-white-50 mb-2" href="login.php"><i class="fa fa-angle-right mr-2"></i>Login</a>
                     <!-- <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a> -->
                     <a class="text-white-50" href="service.php"><i class="fa fa-angle-right mr-2"></i>Submit Listing</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>Old Dnyaneshwar Nagar, New    Dnyaneshwar Nagar,   Rameshwari,Nagpur, Maharashtra 440027</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>   Old Dnyaneshwar Nagar, New    Dnyaneshwar Nagar,   Rameshwari,Nagpur, Maharashtra 440027
+                </p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+91 7058690562</p>
                 <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p>
                 <!-- <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
@@ -447,15 +394,15 @@
             <!-- <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Find US</h5>
                 <img src="img/location.jpg" class="image-fluid w-100"/>
-                </div> -->
-            </div>
+                </div>
+            </div> -->
         </div>
     </div>
     <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
         style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white-50">Copyright &copy; <a href="#">localtradestreetnagpur</a>. All Rights Reserved.</a>
+                <p class="m-0 text-white-50">Copyright &copy; <a href="#">localtardestreetnagpur</a>. All Rights Reserved.</a>
                 </p>
             </div>
             <!-- <div class="col-lg-6 text-center text-md-right">

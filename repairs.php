@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>doctors</title>
+    <title>AUTOMOBILES</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free php Templates" name="keywords">
     <meta content="Free php Templates" name="description">
@@ -24,12 +24,6 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
-
-    
-    
-
-
 </head>
 
 <body>
@@ -41,7 +35,7 @@
                     <div class="d-inline-flex align-items-center">
                         <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p>
                         <p class="text-body px-3">|</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+91 7058690562</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+91 70586 90562</p>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
@@ -49,13 +43,13 @@
                         <a class="text-danger px-3" href="https://www.facebook.com/profile.php?id=100064148859759">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a class="text-danger px-3" href="https://twiter.com/LocalTradeStre2">
+                        <a class="text-danger px-3" href="https://twitter.com/LocalTradeStre2">
                             <i class="fab fa-twitter"></i>
                         </a>
                         <a class="text-danger px-3" href="https://www.linkedin.com/in/local-trade-street-34648a248/">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a class="text-danger px-3" href="https://www.instagram.com/localtradestreet/">
+                        <a class="text-danger px-3" href="https://www.instagram.com/localtradestreets/">
                             <i class="fab fa-instagram"></i>
                         </a>
                         <a class="text-danger pl-3" href="">
@@ -104,55 +98,162 @@
     <!-- Navbar End -->
 
 
-
-    <div class="container-fluid  bgdoc">
-        <div class="container">
-            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-                <h3 class="display-4 text-danger text-uppercase"></h3>
-                <div class="d-inline-flex text-danger">
-                    <p class="m-0 text-uppercase"><a class="text-danger" href=""></a></p>
-                    <!-- <i class="fa fa-angle-double-right pt-1 px-3"></i> -->
-                    <p class="m-0 text-uppercase"></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-    <!-- Carausal Start -->
-
-    <!-- <div class="container-fluid p-0">
+<!-- Carausal Start -->
+    <div class="container-fluid p-0">
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/doctorsmainimage.jpg" alt="Image">
+                    <img class="w-100" src="img/repair banner.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">Dignosis & effective</h4>
-                            <h1 class="display-3 text-white mb-md-4">The Best Hospitals</h1>
-                            <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
-                        <!-- </div>
+                            <!-- <h4 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h4> -->
+                            <!-- <h1 class="text-white">
+                                Search and apply to millions of Listings</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
+                        </div> <br><br>
+                        <div class="container-fluid booking mt-5 pb-5">
+                            <div class="container pb-5">
+                                <div class="shadow" style="padding: 30px;">
+                                    <div class="row align-items-center" style="min-height: 60px;">
+                                        <div class="col-md-10">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="mb-3 mb-md-0">
+                                                        <select class="custom-select px-4" style="height: 47px;">
+                                                            <option selected>what are you looking for ?</option>
+                                                            <option value="1">Beauty</option>
+                                                            <option value="2">Automobile</option>
+                                                            <option value="3">Doctor</option>
+                                                            <option value="4">Real Estate</option>
+                                                            <option value="5">IT</option>
+                                                            <option value="6">Pets</option>
+                                                            <option value="7">Wedding</option>
+                                                            <option value="8">Furniture</option>
+                                                            <option value="9">Hospital</option>
+                                                            <option value="10">Restaurants</option>
+                                                            <option value="11">Security Services</option>
+                                                            <option value="12">Tours & travels</option>
+                                                            <option value="13">Insurance</option>
+
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="mb-3 mb-md-0">
+                                                        <div class="date" id="date1" data-target-input="nearest">
+                                                            <input type="text"
+                                                                class="form-control p-4 datetimepicker-input"
+                                                                placeholder="Location" data-target="#date1"
+                                                                data-toggle="datetimepicker" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="mb-3 mb-md-0">
+                                                        <!-- <div class="date" id="date2" data-target-input="nearest">
+                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
+                                    </div> -->
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <!-- <div class="mb-3 mb-md-0">
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Duration</option>
+                                        <option value="1">Duration 1</option>
+                                        <option value="2">Duration 1</option>
+                                        <option value="3">Duration 1</option>
+                                    </select>
+                                </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button class="btn  btn-block" type="submit"
+                                                style="height: 47px; margin-top: -2px; background-color: #ff1717; color:white">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/slide2.jpg" alt="Image">
+                    <img class="w-100" src="img/repair banner.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">Dignosis & effective</h4>
-                            <h1 class="display-3 text-white mb-md-4">The Best Hospitals</h1>
-                            <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
-                        <!-- </div>
+                            <!-- <h4 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h4> -->
+                            <!-- <h1 class="text-white-50">
+                                Search and apply to millions of Listings</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
+                        </div> <br><br>
+                        <div class="container-fluid booking mt-5 pb-5">
+                            <div class="container pb-5">
+                                <div class="shadow" style="padding: 30px;">
+                                    <div class="row align-items-center" style="min-height: 60px;">
+                                        <div class="col-md-10">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="mb-3 mb-md-0">
+                                                        <select class="custom-select px-4" style="height: 47px;">
+                                                            <option selected>what are you looking for ?</option>
+                                                            <option value="1">Beauty</option>
+                                                            <option value="2">Automobile</option>
+                                                            <option value="3">Doctor</option>
+                                                            <option value="4">Real Estate</option>
+                                                            <option value="5">IT</option>
+                                                            <option value="6">Pets</option>
+                                                            <option value="7">Wedding</option>
+                                                            <option value="8">Furniture</option>
+                                                            <option value="9">Hospital</option>
+                                                            <option value="10">Restaurants</option>
+                                                            <option value="11">Security Services</option>
+                                                            <option value="12">Tours & travels</option>
+                                                            <option value="13">Insurance</option>
+
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="mb-3 mb-md-2">
+                                                        <div class="date" id="date1" data-target-input="nearest">
+                                                            <input type="text"
+                                                                class="form-control p-4 datetimepicker-input"
+                                                                placeholder="Location" data-target="#date1"
+                                                                data-toggle="datetimepicker" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="mb-3 mb-md-0">
+                                                        <!-- <div class="date" id="date2" data-target-input="nearest">
+                                                            <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <!-- <div class="mb-3 mb-md-0">
+                                                        <select class="custom-select px-4" style="height: 47px;">
+                                                            <option selected>Duration</option>
+                                                            <option value="1">Duration 1</option>
+                                                            <option value="2">Duration 1</option>
+                                                            <option value="3">Duration 1</option>
+                                                        </select>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button class="btn btn-primary btn-block" type="submit"
+                                                style="height: 47px; margin-top: -2px; background-color: #ff1717;">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+            <!-- <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
                 <div class="btn btn-dark" style="width: 45px; height: 45px;">
                     <span class="carousel-control-prev-icon mb-n2"></span>
                 </div>
@@ -161,38 +262,91 @@
                 <div class="btn btn-dark" style="width: 45px; height: 45px;">
                     <span class="carousel-control-next-icon mb-n2"></span>
                 </div>
-            </a>
+            </a> -->
         </div>
-    </div>  -->
-    <!-- Carousel End -->
+    </div>
+     <!-- Carousel End -->
 
-    
-    <!-- Left and right controls -->
-    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>  -->
+     <!-- <div class="container-fluid  bgimg">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+                <h3 class="display-4 text-white text-uppercase">RESTAURANTS</h3>
+                <div class="d-inline-flex text-white">
+                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                    <p class="m-0 text-uppercase">Restaurants</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Header End -->
 
-<!-- Carausal End -->
+
+    <!-- Booking Start -->
+    <!-- <div class="container-fluid booking mt-5 pb-5">
+        <div class="container pb-5">
+            <div class="bg-light shadow" style="padding: 30px;">
+                <div class="row align-items-center" style="min-height: 60px;">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Destination</option>
+                                        <option value="1">Destination 1</option>
+                                        <option value="2">Destination 1</option>
+                                        <option value="3">Destination 1</option>
+                                    </select>
+                                </div> 
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3"> -->
+                                <!-- <div class="mb-3 mb-md-0">
+                                    <div class="date" id="date2" data-target-input="nearest">
+                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Duration</option>
+                                        <option value="1">Duration 1</option>
+                                        <option value="2">Duration 1</option>
+                                        <option value="3">Duration 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     Booking End -->
+
 
     <!-- Team Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <!-- <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;"></h6> -->
-                <h3 class="text" style="color:rgb(16,16,19);">Doctors Categories</h3>
+                <h3 class="text" style ="color:rgb(16,16,19);">Repairs Categories</h3>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <a href="doctsInfo.php"><img class="img-fluid w-100" src="img/surgeon general.jpg" alt="ameran">
+                            <a href="carmechanic.php"><img class="img-fluid w-100" src="img/repair 1.jpg" alt="ameran">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -201,15 +355,16 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">General Surgeon</h5>
+                            <h5 class="text-truncate">Car Mechanic</h5></a>
                             <!-- <p class="m-0">Designation</p> -->
-                        </div></a>
+                        </div>
                     </div>
                 </div>
+                
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/ent surgeon.jpg" alt="surgeon">
+                            <img class="img-fluid w-100" src="img/repair 2.jpg" alt="arabic">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -218,7 +373,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">ENT Surgeon</h5>
+                            <h5 class="text-truncate">AC Repairs</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -226,7 +381,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/hepatologist.jpg" alt="arabic">
+                            <img class="img-fluid w-100" src="img/repair 3.jpg" alt="arabic">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -235,7 +390,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Hepotologist</h5>
+                            <h5 class="text-truncate">TV Repairs</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -243,7 +398,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/esic4.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/repair 77.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -252,7 +407,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate"> ESIC</h5>
+                            <h5 class="text-truncate">Computer</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -260,7 +415,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/gastro.jpeg" alt="">
+                            <img class="img-fluid w-100" src="img/repair 5.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -269,7 +424,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Gastroenterologist</h5>
+                            <h5 class="text-truncate">MObile Repair <br> Services</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -277,7 +432,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/physio.jpeg" alt="">
+                            <img class="img-fluid w-100" src="img/repair 6.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -286,7 +441,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Physiotherapists</h5>
+                            <h5 class="text-truncate">Car Repair <br> Services</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -294,7 +449,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/piles.jpg" alt="continental">
+                            <img class="img-fluid w-100" src="img/repair 4.jpg" alt="continental">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -303,15 +458,32 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Piles</h5>
+                            <h5 class="text-truncate">Laptop Repair <br> Services</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
                 </div>
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                    <div class="team-item bg-white mb-4">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100 h-100" src="img/repair 8.jpg" alt="">
+                            <!-- <div class="team-social">
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div> 
+                        </div>
+                        <div class="text-center py-4">
+                            <h5 class="text-truncate">Motorcycle Repair <br> Services</h5>
+                            <!-- <p class="m-0">Designation</p> 
+                        </div>
+                    </div>
+                </div> -->
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/np phychastric.webp" alt="">
+                            <img class="img-fluid w-100" src="img/repair 9.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -320,7 +492,7 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Psychiatrists</h5>
+                            <h5 class="text-truncate">Refrigerator Repair <br> Services</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
@@ -328,7 +500,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/phycologist.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/repair 10.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -337,69 +509,52 @@
                             </div> -->
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Psychologist</h5>
+                            <h5 class="text-truncate">Washing Machine <br>Repair Services</h5>
                             <!-- <p class="m-0">Designation</p> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/pulmonologist.jpeg" alt="">
+                            <img class="img-fluid w-100" src="img/job 10.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div> 
+                        </div>-->
+                        <!-- <div class="text-center py-4">
+                            <h5 class="text-truncate">Finance For <br>business</h5>
+                             <p class-0">Designation</p> 
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                    <div class="team-item bg-white mb-4">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/job 222222.jpg" alt=""> -->
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div> -->
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Pulmonologists</h5>
-                            <!-- <p class="m-0">Designation</p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/radioologist.jpg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div> -->
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Radiologist</h5>
-                            <!-- <p class="m-0">Designation</p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/Rheumatology.jpeg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div> -->
-                        </div>
-                        <div class="text-center py-3">
-                            <h5 class="text-truncate">Rheumatologist</h5>
-                            <!-- <p class="m-0">Designation</p> -->
-                        </div>
+                            </div> 
+                        </div>-->
+                        <!-- <div class="text-center py-3">
+                            <h5 class="text-truncate">Finance For <br> business</h5>
+                            <p class="m-0">Designation</p> -->
+                        <!-- </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>    -->
     <!-- Team End -->
 
 
-    <!-- Footer Start -->
+    <!-- Footer start -->
     <div class="container-fluid bg-dark text-white-50 py-10 px-md-5 px-lg-10" style="margin-top: 90px;">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5 py-10">
@@ -410,27 +565,27 @@
                 <p></p>
                 <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
                 <div class="d-flex justify-content-start">
-                    <a class="btn btn-outline-danger btn-square mr-2" href="https://twiter.com/LocalTradeStre2"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-danger btn-square mr-2" href="https://twitter.com/LocalTradeStre2"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-outline-danger btn-square mr-2" href="https://www.facebook.com/profile.php?id=100064148859759"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-danger btn-square mr-2" href="https://www.linkedin.com/in/local-trade-street-34648a248/"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-danger btn-square" href="https://www.instagram.com/localtradestreet/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-danger btn-square" href="https://www.instagram.com/localtradestreets/"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-white-50 mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <!-- <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Destination</a> -->
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Destination</a>
                     <a class="text-white-50 mb-2" href="about.php"><i class="fa fa-angle-right mr-2"></i>About</a>
                     <a class="text-white-50 mb-2" href="contact.php"><i class="fa fa-angle-right mr-2"></i>Contact</a>
                     <a class="text-white-50 mb-2" href="package.php"><i class="fa fa-angle-right mr-2"></i>Login</a>
                     <!-- <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a> -->
-                    <a class="text-white-50" href="service.php"><i class="fa fa-angle-right mr-2"></i>Submit Listing</a>
+                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Submit Listing</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>Old Dnyaneshwar Nagar, New    Dnyaneshwar Nagar,   Rameshwari,Nagpur, Maharashtra 440027</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i> Old Dnyaneshwar Nagar, New Dnyaneshwar Nagar, Rameshwari, Nagpur, Maharashtra 440027</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+91 7058690562</p>
                 <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p>
                 <!-- <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
@@ -444,10 +599,10 @@
                     </div>
                 </div> -->
             </div>
-            <!-- <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Find US</h5>
-                <img src="img/location.jpg" class="image-fluid w-100"/>
-                </div> -->
+            <div class="col-lg-3 col-md-6 mb-5">
+                <!-- <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Find US</h5> -->
+                <!-- <img src="img/location.jpg" class="image-fluid w-100"/> -->
+                </div>
             </div>
         </div>
     </div>
@@ -455,7 +610,7 @@
         style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white-50">Copyright &copy; <a href="#">localtradestreetnagpur</a>. All Rights Reserved.</a>
+                <p class="m-0 text-white-50">Copyright &copy; <a href="#">localtradestreetnagpur.com</a>. All Rights Reserved.</a>
                 </p>
             </div>
             <!-- <div class="col-lg-6 text-center text-md-right">
