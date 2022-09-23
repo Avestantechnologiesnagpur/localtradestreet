@@ -1,12 +1,12 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>Hospital Info</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free php Templates" name="keywords">
-    <meta content="Free php Templates" name="description">
+    <meta content="Free html Templates" name="keywords">
+    <meta content="Free html Templates" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -73,7 +73,7 @@
 <div class="container-fluid position-relative nav-bar p-0">
     <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
         <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-            <a href="" class="navbar-brand">
+            <a href="index.php" class="navbar-brand">
                 <h1 class="m-0" style="color:#ff1717 ;"><img src="img/logo.jpeg " style="border-radius: 50%;"><span class="text-dark">Local Trade </span>Street</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -419,27 +419,85 @@
                         </div>
                     </div>
                     <!-- Comment List End -->
+                    
+                    <!--database connectivity-->
+                    
+                    <?php error_reporting(E_ALL ^ E_NOTICE); ?>
+        <?php
+            $host = "localhost";
+            $username = "u570873310_local";
+            $password = "Local@321";
+            $dbname = "u570873310_localtrade";
+		
+		$id = $name = $email = $web = $message ="";
+        
+
+        // Create Connection
+            $conn = new mysqli ($host, $username, $password, $dbname);
+
+        //Check Connection
+            if ($conn->connect_error)
+            {
+                // die("Connection Failed. " .$conn->connect_error);
+            }else
+
+        //Taking Values form User
+        // $id = $_REQUEST['id'];
+         $id = $_REQUEST['id'];
+        $name = $_REQUEST['name'];
+        $email = $_REQUEST['email'];
+        $web = $_REQUEST['web'];
+        $message = $_REQUEST['message'];
+        
+        
+        
+        //Performing Insert
+        $sql = "INSERT INTO leavecontact VALUES ('$id','$name','$email','$web','$message')";
+
+        if(mysqli_query($conn, $sql))
+        {
+            //  echo "Data Stored Successfully:";
+        //  echo nl2br("\n $id \n $title \n $category \n $subcategory \n $oname \n $address \n $pincode \n $logo \n $banner");
+        }else
+            // echo "Error Storing Data $sql. " .mysqli_error($conn);
+        
+        mysqli_close($conn);
+        
+        ?>
+        
+        
+        
+        <!--End connectivity-->
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
     
                     <!-- Comment Form Start -->
                     <div class="bg-white mb-3" style="padding: 30px;">
                         <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Leave a comment</h4>
-                        <form>
+                        <form action="clinicinfo.php" method="post">
                             <div class="form-group">
                                 <label for="name">Name *</label>
-                                <input type="text" class="form-control" id="name">
+                                <input type="text" name="name" class="form-control" id="name">
                             </div>
                             <div class="form-group">
                                 <label for="email">Email *</label>
-                                <input type="email" class="form-control" id="email">
+                                <input type="email" class="form-control" name="email" id="email">
                             </div>
                             <div class="form-group">
                                 <label for="website">Website</label>
-                                <input type="url" class="form-control" id="website">
+                                <input type="url" class="form-control" name="web" id="website">
                             </div>
     
                             <div class="form-group">
                                 <label for="message">Message *</label>
-                                <textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+                                <textarea id="message" cols="30" rows="5" name="message" class="form-control"></textarea>
                             </div>
                             <div class="form-group mb-0">
                                 <input type="submit" value="Leave a comment"
@@ -704,4 +762,4 @@
     <script src="js/main.js"></script>
 </body>
 
-</php>
+</html>

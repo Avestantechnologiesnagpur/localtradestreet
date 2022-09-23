@@ -461,7 +461,7 @@
     </tr>
   </thead>
   <?php
-  $conn=mysqli_connect('localhost','root','','localtradestreet');
+  $conn=mysqli_connect('localhost','u570873310_local','Local@321','u570873310_localtrade');
     
     $query="SELECT * FROM contact";
     $result=mysqli_query($conn,$query);
@@ -478,7 +478,7 @@
      
       
       <td><a href="approv.php?id=<?php echo $res['id'] ?>"><input type="button" class="btn btn-primary" value="Approv"></td>
-      <td><a href="creject?id=<?php echo $res['id'] ?>"><input type="button" class="btn btn-primary" value="Reject"></td>
+      <td><a href="creject.php?id=<?php echo $res['id'] ?>"><input type="button" class="btn btn-primary" value="Reject"></td>
       <td><a href="update.php?id=<?php echo $res['id'] ?>"><input type="button" class="btn btn-primary" value="Update"></td>
     </tr>
     
