@@ -468,7 +468,7 @@
     </tr>
   </thead>
   <?php
-  $conn=mysqli_connect('localhost','root','','localtradestreet');
+  $conn=mysqli_connect('host','u570873310_local','Local@321','u570873310_localtrade');
     
     $query="SELECT * FROM submitlist";
     $result=mysqli_query($conn,$query);

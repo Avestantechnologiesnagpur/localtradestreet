@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                         <div class="d-inline-flex align-items-center">
-                            <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p>
+                           <a href= mailto:marketing@localtrade.com> <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p></a>
                             <p class="text-body px-3">|</p>
                             <p><i class="fa fa-phone-alt mr-2"></i>+91 70586 90562</p>
                         </div>
@@ -77,7 +77,7 @@
         <div class="container-fluid position-relative nav-bar p-0">
             <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
                 <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                    <a href="" class="navbar-brand">
+                    <a href="index.php" class="navbar-brand">
                         <h1 class="m-0 text-primary"><img src="img/logo.jpeg" style="border-radius: 50%; ;" >&nbsp;<span class="text-dark">Local Trade </span><span style="color:#ff1717;">Street</span></h1>
                     </a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -150,7 +150,7 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="mb-3 mb-md-0">
-                                                        <div class="date" id="date1" data-target-input="nearest">
+                                                        <div>
                                                             <input type="text"
                                                                 class="form-control p-4 datetimepicker-input"
                                                                 placeholder="Location" data-target="#date1"
@@ -187,53 +187,53 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/l2.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <!--<div class="carousel-item">-->
+                    <!--<img class="w-100" src="img/l2.jpg" alt="Image">-->
+                    <!--<div class="carousel-caption d-flex flex-column align-items-center justify-content-center">-->
                         <div class="p-3 mt-3" style="max-width: 900px;"> 
                             <!-- <h6 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h6> -->
                             <!-- <h1 class="text-white-50">
                                 Search and apply to millions of Listings</h1>
                             <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
                         </div> <br><br>
-                        <div class="container-fluid booking mt-5 pb-5">
-                            <div class="container pb-5">
-                                <div class="shadow" style="padding: 30px;">
+                        <!--<div class="container-fluid booking mt-5 pb-5">-->
+                            <!--<div class="container pb-5">-->
+                                <!--<div class="shadow" style="padding: 30px;">-->
                                     <div class="row align-items-center" style="min-height: 60px;">
                                         <div class="col-md-10">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="mb-3 mb-md-0">
-                                                        <select class="custom-select px-4" style="height: 47px;">
-                                                            <option selected>what are you looking for ?</option>
-                                                            <option value="1">Beauty</option>
-                                                            <option value="2">Automobile</option>
-                                                            <option value="3">Doctor</option>
-                                                            <option value="4">Real Estate</option>
-                                                            <option value="5">IT</option>
-                                                            <option value="6">Pets</option>
-                                                            <option value="7">Wedding</option>
-                                                            <option value="8">Furniture</option>
-                                                            <option value="9">Hospital</option>
-                                                            <option value="10">Restaurants</option>
-                                                            <option value="11">Security Services</option>
-                                                            <option value="12">Tours & travels</option>
-                                                            <option value="13">Insurance</option>
+                                                        <!--<select class="custom-select px-4" style="height: 47px;">-->
+                                                        <!--    <option selected>what are you looking for ?</option>-->
+                                                        <!--    <option value="1">Beauty</option>-->
+                                                        <!--    <option value="2">Automobile</option>-->
+                                                        <!--    <option value="3">Doctor</option>-->
+                                                        <!--    <option value="4">Real Estate</option>-->
+                                                        <!--    <option value="5">IT</option>-->
+                                                        <!--    <option value="6">Pets</option>-->
+                                                        <!--    <option value="7">Wedding</option>-->
+                                                        <!--    <option value="8">Furniture</option>-->
+                                                        <!--    <option value="9">Hospital</option>-->
+                                                        <!--    <option value="10">Restaurants</option>-->
+                                                        <!--    <option value="11">Security Services</option>-->
+                                                        <!--    <option value="12">Tours & travels</option>-->
+                                                        <!--    <option value="13">Insurance</option>-->
 
-                                                        </select>
+                                                        <!--</select>-->
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <div class="mb-3 mb-md-2">
-                                                        <div class="date" id="date1" data-target-input="nearest">
-                                                            <input type="text"
-                                                                class="form-control p-4 datetimepicker-input"
-                                                                placeholder="Location" data-target="#date1"
-                                                                data-toggle="datetimepicker" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
+                                                <!--<div class="col-md-6">-->
+                                                    <!--<div class="mb-3 mb-md-2">-->
+                                                        <!--<div class="date" id="date1" data-target-input="nearest">-->
+                                                        <!--    <input type="text"-->
+                                                        <!--        class="form-control p-4 datetimepicker-input"-->
+                                                        <!--        placeholder="Location" data-target="#date1"-->
+                                                        <!--        data-toggle="datetimepicker" />-->
+                                                        <!--</div>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="col-md-3">-->
                                                     <div class="mb-3 mb-md-0">
                                                         <!-- <div class="date" id="date2" data-target-input="nearest">
                                                             <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
@@ -252,10 +252,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-2">
-                                            <button class="btn btn-primary btn-block" type="submit"
-                                                style="height: 47px; margin-top: -2px; background-color: #ff1717;">Send</button>
-                                        </div>
+                                        <!--<div class="col-md-2">-->
+                                        <!--    <button class="btn btn-primary btn-block" type="submit"-->
+                                        <!--        style="height: 47px; margin-top: -2px; background-color: #ff1717;">Send</button>-->
+                                        <!--</div>-->
                                     </div>
                                 </div>
                             </div>
@@ -263,16 +263,16 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
-                <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-prev-icon mb-n2"></span>
-                </div>
-            </a>
-            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
-                <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-next-icon mb-n2"></span>
-                </div>
-            </a>
+            <!--<a class="carousel-control-prev" href="#header-carousel" data-slide="prev">-->
+            <!--    <div class="btn btn-dark" style="width: 45px; height: 45px;">-->
+            <!--        <span class="carousel-control-prev-icon mb-n2"></span>-->
+            <!--    </div>-->
+            <!--</a>-->
+            <!--<a class="carousel-control-next" href="#header-carousel" data-slide="next">-->
+            <!--    <div class="btn btn-dark" style="width: 45px; height: 45px;">-->
+            <!--        <span class="carousel-control-next-icon mb-n2"></span>-->
+            <!--    </div>-->
+            <!--</a>-->
         </div>
     </div>
  <!-- Carousel End -->

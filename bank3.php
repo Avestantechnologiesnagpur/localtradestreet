@@ -1,12 +1,12 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>malkapur info</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free php Templates" name="keywords">
-    <meta content="Free php Templates" name="description">
+    <meta content="Free html Templates" name="keywords">
+    <meta content="Free html Templates" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -73,7 +73,7 @@
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <h1 class="m-0" style="color:#ff1717;"><img src="img/logo.jpeg " style="border-radius: 50%;"><span class="text-dark">Local Trade </span>Street</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -549,4 +549,4 @@
     <script src="js/main.js"></script>
 </body>
 
-</php>
+</html>

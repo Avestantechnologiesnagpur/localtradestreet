@@ -1,15 +1,15 @@
 <?php error_reporting(E_ALL ^ E_NOTICE); ?>
         <?php
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $dbname = "localtradestreet";
+            $host = "localhost";
+            $username = "u570873310_local";
+            $password = "Local@321";
+            $dbname = "u570873310_localtrade";
 		
 		$id = $name = $email = $subject = $message ="";
         
 
         // Create Connection
-            $conn = new mysqli ($servername, $username, $password, $dbname);
+            $conn = new mysqli ($host, $username, $password, $dbname);
 
         //Check Connection
             if ($conn->connect_error)
@@ -35,11 +35,13 @@
             //  echo "Data Stored Successfully:";
         //  echo nl2br("\n $id \n $title \n $category \n $subcategory \n $oname \n $address \n $pincode \n $logo \n $banner");
         }else
-            echo "Error Storing Data $sql. " .mysqli_error($conn);
+            // echo "Error Storing Data $sql. " .mysqli_error($conn);
         
         mysqli_close($conn);
         
         ?>
+        
+    
 
 
 
@@ -81,7 +83,7 @@
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <p><i class="fa fa-envelope mr-2"></i>localtradestreetnagpur@gmail.com</p>
+                      <a href= "mailto:marketing@localtrade.com">  <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p></a>
                         <p class="text-body px-3">|</p>
                         <p><i class="fa fa-phone-alt mr-2"></i>+91 70586 90562</p>
                     </div>
@@ -115,7 +117,7 @@
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <h1 class="m-0" ><img src="img/logo.jpeg" style="border-radius:50% ;"><span class="text-dark">Local Trade</span><span style="color:#ff1717 ;"> Street</span></h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -125,7 +127,7 @@
                     <div class="navbar-nav ml-auto py-0">
                         <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="contact.php" class="nav-item nav-link active">Contact</a>
                         <!-- <a href="package.php" class="nav-item nav-link">Tour Packages</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
@@ -137,7 +139,7 @@
                                 <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                             </div>
                         </div> -->
-                        <a href="package.php" class="nav-item nav-link active">Login</a>
+                        <a href="package.php" class="nav-item nav-link">Login</a>
                         <a href="service.php" class="nav-item nav-link">Submit Listing</a>
                     </div>
                 </div>
@@ -191,7 +193,7 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="mb-3 mb-md-0">
-                                                        <div class="date" id="date1" data-target-input="nearest">
+                                                        <div>
                                                             <input type="text"
                                                                 class="form-control p-4 datetimepicker-input"
                                                                 placeholder="Location" data-target="#date1"
@@ -228,15 +230,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/l2.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3 mt-3" style="max-width: 900px;"> 
+                <!--<div class="carousel-item">-->
+                    <!--<img class="w-100" src="img/l2.jpg" alt="Image">-->
+                    <!--<div class="carousel-caption d-flex flex-column align-items-center justify-content-center">-->
+                        <!--<div class="p-3 mt-3" style="max-width: 900px;"> -->
                             <!-- <h6 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h6> -->
                             <!-- <h1 class="text-white-50">
                                 Search and apply to millions of Listings</h1>
                             <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
-                        </div> <br><br>
+                        <!--</div> <br><br>-->
                         <div class="container-fluid booking mt-5 pb-5">
                             <div class="container pb-5">
                                 <div class="shadow" style="padding: 30px;">
@@ -304,16 +306,16 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
-                <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-prev-icon mb-n2"></span>
-                </div>
-            </a>
-            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
-                <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-next-icon mb-n2"></span>
-                </div>
-            </a>
+            <!--<a class="carousel-control-prev" href="#header-carousel" data-slide="prev">-->
+            <!--    <div class="btn btn-dark" style="width: 45px; height: 45px;">-->
+            <!--        <span class="carousel-control-prev-icon mb-n2"></span>-->
+            <!--    </div>-->
+            <!--</a>-->
+            <!--<a class="carousel-control-next" href="#header-carousel" data-slide="next">-->
+            <!--    <div class="btn btn-dark" style="width: 45px; height: 45px;">-->
+            <!--        <span class="carousel-control-next-icon mb-n2"></span>-->
+            <!--    </div>-->
+            <!--</a>-->
         </div>
     </div>
 
@@ -383,7 +385,8 @@
                 <div class="col-lg-8">
                     <div class="contact-form bg-white" style="padding: 30px;">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate" method="post" action="contact.php">
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate" method="POST" 
+                        action="contact.php">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4" id="name" placeholder="Your Name"

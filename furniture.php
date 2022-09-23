@@ -211,7 +211,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/steel work.jpg" alt="surgeon">
+                            <a href="SteelFabri.php"><img class="img-fluid w-100" src="img/steel work.jpg" alt="surgeon">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -226,7 +226,7 @@
                         <div class="text-center py-4">
                             <h5 class="text-truncate">Steel Fabrication Works</h5>
                             <!-- <p class="m-0">Designation</p> -->
-                        </div>
+                        </div></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
@@ -284,14 +284,14 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/Interior-Design.jpg" alt="">
+                           <a href="interior1.php"> <img class="img-fluid w-100" src="img/Interior-Design.jpg" alt="">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
                             </div> -->
-                        </div>
+                        </div></a>
                         <div class="text-center py-4">
                             <h5 class="text-truncate">Interior Designer</h5>
                             <!-- <p class="m-0">Designation</p> -->
@@ -301,7 +301,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/kitchen.jpg" alt="continental">
+                            <a href="ModularKitchen.php"><img class="img-fluid w-100" src="img/kitchen.jpg" alt="continental">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -312,7 +312,7 @@
                         <div class="text-center py-4">
                             <h5 class="text-truncate">Modular Kitchen</h5>
                             <!-- <p class="m-0">Designation</p> -->
-                        </div>
+                        </div></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
@@ -386,7 +386,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/playwood.jpg" alt="">
+                           <a href="plywoodDealer.php"> <img class="img-fluid w-100" src="img/playwood.jpg" alt="ameran">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -394,10 +394,12 @@
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
                             </div> -->
                         </div>
+                        
                         <div class="text-center py-3">
-                            <h5 class="text-truncate">Playwood Dealers</h5>
+                            <h5 class="text-truncate">Plywood Dealers</h5>
                             <!-- <p class="m-0">Designation</p> -->
-                        </div>
+                        </div></a>
+                        
                     </div>
                 </div>
             </div>
