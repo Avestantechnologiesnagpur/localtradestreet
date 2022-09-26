@@ -1,16 +1,16 @@
 <?php error_reporting(E_ALL ^ E_NOTICE); ?>
         <?php
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $dbname = "localtradestreet";
+            $host = "localhost";
+            $username = "u570873310_local";
+            $password = "Local@321";
+            $dbname = "u570873310_localtrade";
 		
 		$id = $subcategory = $mondaystart = $mondayend = $tuestart = $tueend = $wenstart = $wenend = $thustart = $thusend = $fristart = $friend = $stastart = $staend = $sunstart = $sunend =  
         $logo = $banner = $description = $service = $locality = "";
         
 
         // Create Connection
-            $conn = new mysqli ($servername, $username, $password, $dbname);
+            $conn = new mysqli ($host, $username, $password, $dbname);
 
         //Check Connection
             if ($conn->connect_error)
@@ -19,7 +19,7 @@
             }else
 
         //Taking Values form User
-        $id = $_REQUEST['id'];
+        // $id = $_REQUEST['id'];
         $subcategory = $_REQUEST['subcategory'];
         $mondaystart = $_REQUEST['mondaystart'];
         $mondayend = $_REQUEST['mondayend'];
@@ -51,7 +51,7 @@
             //  echo "Data Stored Successfully:";
         //  echo nl2br("\n $id \n $title \n $category \n $subcategory \n $oname \n $address \n $pincode \n $logo \n $banner");
         }else
-            echo "Error Storing Data $sql. " .mysqli_error($conn);
+            // echo "Error Storing Data $sql. " .mysqli_error($conn);
         
         mysqli_close($conn);
         
@@ -132,7 +132,7 @@
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <h1 class="m-0" style="color:#ff1717;"><img src="img/logo.jpeg " style="border-radius: 50%;"><span class="text-dark">Local Trade </span>Street</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">

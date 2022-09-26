@@ -1,12 +1,12 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>wedding</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free php Templates" name="keywords">
-    <meta content="Free php Templates" name="description">
+    <meta content="Free html Templates" name="keywords">
+    <meta content="Free html Templates" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -73,7 +73,7 @@
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <h1 class="m-0 text-primary"><img src="img/logo.jpeg " style="border-radius: 50%;"> <span class="text-dark">Local Trade</span> <span style="color:#ff1717;">Street</span></h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -301,14 +301,14 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/wedding7.jpg" alt="continental">
+                           <a href="w1.php"> <img class="img-fluid w-100" src="img/wedding7.jpg" alt="continental">
                             <!-- <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
                             </div> -->
-                        </div>
+                        </div></a>
                         <div class="text-center py-4">
                             <h5 class="text-truncate">Banquet Halls</h5>
                             <!-- <p class="m-0">Designation</p> -->
@@ -496,4 +496,4 @@
     <script src="js/main.js"></script>
 </body>
 
-</php>
+</html>

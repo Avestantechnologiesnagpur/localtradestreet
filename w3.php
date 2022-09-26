@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Restaurant Info</title>
+    <title>Fitness Club Info</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free html Templates" name="keywords">
     <meta content="Free html Templates" name="description">
@@ -33,91 +33,249 @@
 </head>
 
 <body>
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-                    <div class="d-inline-flex align-items-center">
-                        <p><i class="fa fa-envelope mr-2"></i>localtradestreetnagpur@gmail.com</p>
-                        <p class="text-body px-3">|</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+91 70586 90562</p>
+   <!-- Topbar Start -->
+   <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p>
+                    <p class="text-body px-3">|</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+91 7058690562</p>
                 </div>
-                </div>
-                <div class="col-lg-6 text-center text-lg-right">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="text-danger px-3" href="https://www.facebook.com/profile.php?id=100064148859759">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="text-danger px-3" href="https://twitter.com/LocalTradeStre2">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a class="text-danger px-3" href="https://www.linkedin.com/in/local-trade-street-34648a248/">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="text-danger px-3" href="https://www.instagram.com/localtradestreets/">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a class="text-danger pl-3" href="">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="px-3" style="color:#ff1717" href="https://www.facebook.com/avestantechnologies/">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="px-3" style="color:#ff1717" href="https://twitter.com/LocalTradeStre2">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="px-3" style="color:#ff1717" href="https://www.linkedin.com/in/local-trade-street-34648a248/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="px-3" style="color:#ff1717" href="https://www.instagram.com/localtradestreets/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="pl-3 " style="color:#ff1717" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+</div>
+<!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <div class="container-fluid position-relative nav-bar p-0">
-        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="index.php" class="navbar-brand">
-                    <h1 class="m-0" style="color:#ff1717;"><img src="img/logo.jpeg " style="border-radius: 50%;"><span class="text-dark">Local Trade </span>Street</h1>
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">Home</a>
-                        <a href="about.php" class="nav-item nav-link">About</a>
-                        <!-- <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu border-0 rounded-0 m-0">
-                                <a href="blog.php" class="dropdown-item">Blog Grid</a>
-                                <a href="single.php" class="dropdown-item">Blog Detail</a>
-                                <a href="destination.php" class="dropdown-item">Destination</a>
-                                <a href="guide.php" class="dropdown-item">Travel Guides</a>
-                                <a href="testimonial.php" class="dropdown-item">Testimonial</a>
+<!-- Navbar Start -->
+<div class="container-fluid position-relative nav-bar p-0">
+    <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+            <a href="index.php" class="navbar-brand">
+                <h1 class="m-0" style="color:#ff1717 ;"><img src="img/logo.jpeg " style="border-radius: 50%;"><span class="text-dark">Local Trade </span>Street</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu border-0 rounded-0 m-0">
+                            <a href="blog.php" class="dropdown-item">Blog Grid</a>
+                            <a href="single.php" class="dropdown-item">Blog Detail</a>
+                            <a href="destination.php" class="dropdown-item">Destination</a>
+                            <a href="guide.php" class="dropdown-item">Travel Guides</a>
+                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
+                        </div>
+                    </div> -->
+                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                    <a href="package.php" class="nav-item nav-link">Login</a>
+                    <a href="service.php" class="nav-item nav-link">Submit Listing</a>
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+
+<!-- Carousel Start -->
+<div class="container-fluid p-0">
+    <div id="header-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="img/wed banner 1.png" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <!-- <h4 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h4> -->
+                        <!-- <h1 class="text-white">
+                            Search and apply to millions of Listings</h1>
+                        <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
+                    </div> <br><br>
+                    <div class="container-fluid booking mt-5 pb-5">
+                        <div class="container pb-5">
+                            <div class="shadow" style="padding: 30px;">
+                                <div class="row align-items-center" style="min-height: 60px;">
+                                    <div class="col-md-10">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mb-3 mb-md-0">
+                                                    <select class="custom-select px-4" style="height: 47px;">
+                                                        <option selected>what are you looking for ?</option>
+                                                        <option value="1">Beauty</option>
+                                                        <option value="2">Automobile</option>
+                                                        <option value="3">Doctor</option>
+                                                        <option value="4">Real Estate</option>
+                                                        <option value="5">IT</option>
+                                                        <option value="6">Pets</option>
+                                                        <option value="7">Wedding</option>
+                                                        <option value="8">Furniture</option>
+                                                        <option value="9">Hospital</option>
+                                                        <option value="10">Restaurants</option>
+                                                        <option value="11">Security Services</option>
+                                                        <option value="12">Tours & travels</option>
+                                                        <option value="13">Insurance</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3 mb-md-0">
+                                                    <div class="date" id="date1" data-target-input="nearest">
+                                                        <input type="text"
+                                                            class="form-control p-4 datetimepicker-input"
+                                                            placeholder="Location" data-target="#date1"
+                                                            data-toggle="datetimepicker" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="mb-3 mb-md-0">
+                                                    <!-- <div class="date" id="date2" data-target-input="nearest">
+                                    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
+                                </div> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <!-- <div class="mb-3 mb-md-0">
+                                <select class="custom-select px-4" style="height: 47px;">
+                                    <option selected>Duration</option>
+                                    <option value="1">Duration 1</option>
+                                    <option value="2">Duration 1</option>
+                                    <option value="3">Duration 1</option>
+                                </select>
+                            </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button class="btn  btn-block" type="submit"
+                                            style="height: 47px; margin-top: -2px; background-color: #ff1717; color:white">Search</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div> -->
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
-                        <a href="package.php" class="nav-item nav-link">Login</a>
-                        <a href="service.php" class="nav-item nav-link">Submit Listing</a>    
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </div>
-    </div>
-    <!-- Navbar End -->
-    
-    <!-- Header Start -->
-    <div class="container-fluid page-header">
-        <div class="container">
-            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-                <!-- <h3 class="display-4 text-white text-uppercase">Restaurant Detail</h3> -->
-                <div class="d-inline-flex text-white">
-                    <!-- <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p> -->
-                    <!-- <i class="fa fa-angle-double-right pt-1 px-3"></i> -->
-                    <!-- <p class="m-0 text-uppercase">Restaurant Detail</p> -->
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="img/wed banner 1.png" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;"> 
+                        <!-- <h4 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h4> -->
+                        <!-- <h1 class="text-white-50">
+                            Search and apply to millions of Listings</h1>
+                        <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
+                    </div> <br><br>
+                    <div class="container-fluid booking mt-5 pb-5">
+                        <div class="container pb-5">
+                            <div class="shadow" style="padding: 30px;">
+                                <div class="row align-items-center" style="min-height: 60px;">
+                                    <div class="col-md-10">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mb-3 mb-md-0">
+                                                    <select class="custom-select px-4" style="height: 47px;">
+                                                        <option selected>what are you looking for ?</option>
+                                                        <option value="1">Beauty</option>
+                                                        <option value="2">Automobile</option>
+                                                        <option value="3">Doctor</option>
+                                                        <option value="4">Real Estate</option>
+                                                        <option value="5">IT</option>
+                                                        <option value="6">Pets</option>
+                                                        <option value="7">Wedding</option>
+                                                        <option value="8">Furniture</option>
+                                                        <option value="9">Hospital</option>
+                                                        <option value="10">Restaurants</option>
+                                                        <option value="11">Security Services</option>
+                                                        <option value="12">Tours & travels</option>
+                                                        <option value="13">Insurance</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3 mb-md-2">
+                                                    <div class="date" id="date1" data-target-input="nearest">
+                                                        <input type="text"
+                                                            class="form-control p-4 datetimepicker-input"
+                                                            placeholder="Location" data-target="#date1"
+                                                            data-toggle="datetimepicker" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="mb-3 mb-md-0">
+                                                    <!-- <div class="date" id="date2" data-target-input="nearest">
+                                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <!-- <div class="mb-3 mb-md-0">
+                                                    <select class="custom-select px-4" style="height: 47px;">
+                                                        <option selected>Duration</option>
+                                                        <option value="1">Duration 1</option>
+                                                        <option value="2">Duration 1</option>
+                                                        <option value="3">Duration 1</option>
+                                                    </select>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button class="btn btn-primary btn-block" type="submit"
+                                            style="height: 47px; margin-top: -2px; background-color: #ff1717;">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+            <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                <span class="carousel-control-prev-icon mb-n2"></span>
+            </div>
+        </a>
+        <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+            <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                <span class="carousel-control-next-icon mb-n2"></span>
+            </div>
+        </a> -->
     </div>
-    <!-- Header End -->
-    <!-- Blog Start -->
+</div>
+<!-- Carousel End -->
+<!-- Blog Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row">
@@ -127,7 +285,7 @@
                         <div class="blog-item">
                             <div class="position-relative">
                                 <!-- <h2 class="mb-3">Cherries n Chillies International Cuisine Restaurant</h2> -->
-                                <img class="img-fluid w-100" src="img/cherries.jpg" alt="Cherries">
+                                <img class="img-fluid w-100" src="img/wed 22.jpg" alt="Cherries">
                                 <div class="blog-date">
                                     <h6 class="font-weight-bold mb-n1"><span style="background-color: #ff1717;"></span></h6>
                                     <small class="text-white text-uppercase"><span style="background-color: #ff1717;"></span></small>
@@ -137,7 +295,7 @@
                         <div class="bg-white mb-3" style="padding: 30px;">
                             <div class="container">
                                 <div class="header">
-                                    <h1 itemprop="name">Cherries n Chillies International Cuisine Restaurant</h1>
+                                    <h1 itemprop="name">Maai Wedding Celebration Hall Lawn And Resort </h1>
                                       <ul class="list-group b-info" style="margin-bottom: 4px; ">
                                           <li class="list-group-item"> 
                                               <div class="pull-left" style="width:100px; height:24px; margin-top: 4px;">
@@ -150,14 +308,14 @@
                                               </div>
                                               <div class="pull-left">
                                                     <span style="font-size: 40px; color:#ff1717; vertical-align: middle;">***** </span><a href="https://www.facebook.com/Cherries-n-Chillies-1055781421145269/" target="_blank">
-                                                        <amp-img src="https://www.pickeronline.com/assets/theme/images/facebook.png" alt="facebook" width="28" height="28" layout="fixed" class="i-ampphp-element i-ampphp-layout-fixed i-ampphp-layout-size-defined i-ampphp-built i-ampphp-layout" i-ampphp-layout="fixed" style="width: 28px; height: 28px; --loader-delay-offset:343ms !important;">
-                                                            <img decoding="async" alt="facebook" src="https://www.pickeronline.com/assets/theme/images/facebook.png" class="i-ampphp-fill-content i-ampphp-replaced-content" style="vertical-align:middle;"></amp-img></a>&nbsp;
+                                                        <amp-img src="https://www.pickeronline.com/assets/theme/images/facebook.png" alt="facebook" width="28" height="28" layout="fixed" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="fixed" style="width: 28px; height: 28px; --loader-delay-offset:343ms !important;">
+                                                            <img decoding="async" alt="facebook" src="https://www.pickeronline.com/assets/theme/images/facebook.png" class="i-amphtml-fill-content i-amphtml-replaced-content" style="vertical-align:middle;"></amp-img></a>&nbsp;
                                             </div>
                                               <div class="clearfix"></div>
                                           </li>
                                           
-                                          <li class="list-group-item"><i class='fas fa-phone'></i> <a href="tel:0712-2241941" itemprop="telephone">0712-2241941</a>.</li><li itemprop="telephone" class="list-group-item"><i class='fas fa-mobile-alt'></i> <a href="tel:9371513961" itemprop="telephone">9371513961</a>.</li> <li itemprop="email" class="list-group-item"><i class='fas fa-envelope-open'></i> <a href="mailto:info@cherriesnchillies.com">info@cherriesnchillies.com</a></li><li class="list-group-item"><i class="fa fa-globe"></i> <a itemprop="sameAs" target="_blank" href="http://www.cherriesnchillies.com/" rel="nofollow">http://www.cherriesnchillies.com/</a></li><li class="list-group-item" itemprop="address"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                                            <span itemprop="streetAddress" style="color:#ff1717;">Plot No. 22, NIT Complex, Hill Road,</span><br>&nbsp; &nbsp;&nbsp; <span style="color:#ff1717;" itemprop="addressLocality" style="color:#ff1717;">Gandhi Nagar</span>, <span itemprop="addressRegion"style="color:#ff1717;">Nagpur</span> - <span style="color:#ff1717;" itemprop="postalCode">440010</span>.</li>
+                                          <li class="list-group-item"><i class='fas fa-phone'></i> <a href="tel:9422842330" itemprop="telephone">918999750747</a>.</li><li itemprop="telephone" class="list-group-item"><i class='fas fa-mobile-alt'></i> <a href="tel:9326863318" itemprop="telephone">918999750747</a>.</li> <li itemprop="email" class="list-group-item"><i class='fas fa-envelope-open'></i> <a href="mailto:maaicelebration@gmail.com">maaicelebration@gmail.com</a></li><li class="list-group-item"><i class="fa fa-globe"></i> <a itemprop="sameAs" target="_blank" href=" http://maaicelebration.com/" rel="nofollow"> http://maaicelebration.com</a></li><li class="list-group-item" itemprop="address"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <span itemprop="streetAddress" style="color:#ff1717;"> Maai Farm House And Resort, Kuhi Fata, Dongargaon, Umred Road,</span><br>&nbsp; &nbsp;&nbsp; <span style="color:#ff1717;" itemprop="addressLocality" style="color:#ff1717;"> Nagpur</span>, <span itemprop="addressRegion"style="color:#ff1717;">Maharashtra</span> - <span style="color:#ff1717;" itemprop="postalCode">440024</span>.</li
                                       </ul> 
                                       <div class="row pt-3">
                                         <div class="col-xs-3 col-sm-1 profile-bottom ">
@@ -229,7 +387,7 @@
                         <div class="media mb-4">
                             <img src="img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
                             <div class="media-body">
-                                <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
+                                <h6><a href="">John Doe</a> <small><i></i></small></h6>
                                 <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
                                     accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.
                                     Gubergren clita aliquyam consetetur sadipscing, at tempor amet ipsum diam tempor
@@ -240,25 +398,27 @@
                         <div class="media">
                             <img src="img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
                             <div class="media-body">
-                                <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
+                                <h6><a href="">John Doe</a> <small><i></i></small></h6>
                                 <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
                                     accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.
                                     Gubergren clita aliquyam consetetur sadipscing, at tempor amet ipsum diam tempor
                                     consetetur at sit.</p>
                                 <button class="btn btn-sm btn-outline-primary">Reply</button>
+                                </div>
+                                </div>
                                 <div class="media mt-4">
                             <img src="img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
-                            <div class="media-body">
-                                <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
+                            <div>
+                                <h6><a href="">John Doe</a> <small><i></i></small></h6>
                                 <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor
-                                    labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed
-                                    eirmod ipsum. Gubergren clita aliquyam consetetur sadipscing, at tempor amet
-                                    ipsum diam tempor consetetur at sit.</p>
-                                        <button class="btn btn-sm btn-outline-primary">Reply</button>
-                                    </div>
+                                   labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed
+                                   eirmod ipsum. Gubergren clita aliquyam consetetur sadipscing, at tempor amet
+                                   ipsum diam tempor consetetur at sit.</p>
+                                <button class="btn btn-sm btn-outline-primary">Reply</button>
                                 </div>
-                            </div>
-                        </div>
+                                </div>
+                            <!-- </div>
+                        </div> -->
                     </div>
                     <!-- Comment List End -->
     
@@ -297,21 +457,19 @@
                     <div class="d-flex flex-column text-center bg-white mb-5 py-5 px-4">
                         <!-- <img src="img/user.jpg" class="img-fluid mx-auto mb-3" style="width: 100px;"> -->
                         <h3 class="text-danger mb-3">Description</h3>
-                        <p>Celebrate Flavours of The World with Cherries n Chillies is a international Cuisine Restaurant Nagpur. Our Specialty in Chinese, Italian, Mexican, Thai, South Indian Food and much more.
-
-                            From 12 October LEBANESE FOOD FESTIVAL will start in our exclusive outlet.
+                        Established in the year 2020, Maai Wedding Celebration Hall Lawn And Resort in Umred Road, Nagpur is a top player in the category Banquet Halls in the Nagpur. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Nagpur. Over the course of its journey, this business has established a firm foothold in it’s industry.
 </p>
                         <div class="d-flex justify-content-center">
-                            <a class="text-danger px-2" href="">
+                            <a class="text-danger px-2" href="https://www.facebook.com/profile.php?id=100064148859759">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a class="text-danger px-2" href="">
+                            <a class="text-danger px-2" href="https://twitter.com/LocalTradeStre2">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a class="text-danger px-2" href="">
+                            <a class="text-danger px-2" href="https://www.linkedin.com/in/local-trade-street-34648a248/">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a class="text-danger px-2" href="">
+                            <a class="text-danger px-2" href="https://www.instagram.com/localtradestreets/">
                                 <i class="fab fa-instagram"></i>
                             </a>
                             <a class="text-danger px-2" href="">
@@ -371,20 +529,20 @@
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
-                                    <img class="d-block w-100" src="img/dish1.jpg" alt="First slide">
+                                    <img class="d-block w-100" src="img/wed8.jpg" alt="First slide">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/dish2.jpg" alt="Second slide">
+                                    <img class="d-block w-100" src="img/wed9.jpg" alt="Second slide">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/dish3.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="img/wed10.jpg" alt="Third slide">
+                                  </div>
+                                  <!-- <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/bonde 4.jpg" alt="Forth slide" slide">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/dish4.jpg" alt="Forth slide" slide">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/dish5.jpg" alt="Fifth slide">
-                                  </div>
+                                    <img class="d-block w-100" src="img/bonde 1.jpg" alt="Fifth slide">
+                                  </div> -->
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -428,22 +586,23 @@
      <div class="col-md well well-faint">
 		<h2 class="title">Video</h2>
                     <hr>
-					<amp-img src="https://www.pickeronline.com/assets/theme/images/not-available.png" alt="not-available" class="img-responsive i-ampphp-element i-ampphp-layout-responsive i-ampphp-layout-size-defined i-ampphp-built i-ampphp-layout" style="margin: 0px auto; --loader-delay-offset:344ms !important;" layout="responsive" width="348" height="280" i-ampphp-layout="responsive"><i-ampphp-sizer slot="i-ampphp-svc" style="padding-top: 80.4598%;"></i-ampphp-sizer><img decoding="async" alt="not-available" src="https://www.pickeronline.com/assets/theme/images/not-available.png" class="i-ampphp-fill-content i-ampphp-replaced-content"></amp-img>
+					<amp-img src="https://www.pickeronline.com/assets/theme/images/not-available.png" alt="not-available" class="img-responsive i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" style="margin: 0px auto; --loader-delay-offset:344ms !important;" layout="responsive" width="348" height="280" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 80.4598%;"></i-amphtml-sizer><img decoding="async" alt="not-available" src="https://www.pickeronline.com/assets/theme/images/not-available.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
 				<div class="clearfix"></div>
 	
             </div>
-                    <!-- Service -->
-                    <div class="mb-5 pt-5">
+                     <!-- Service  -->
+                     <div class="mb-5 pt-5">
                         <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Services</h4>
                         <div class="d-flex flex-wrap m-n1">
-                            <a href="" class="btn btn-light m-1">International Cuisins</a>
-                            <a href="" class="btn btn-light m-1">Mocktails</a>
-                            <a href="" class="btn btn-light m-1">Indian Food</a>
-                            <a href="" class="btn btn-light m-1">Thai Food</a>
-                            <a href="" class="btn btn-light m-1">Maxican Food</a>
-                            <a href="" class="btn btn-light m-1">Coffe and Tea</a>
+                            <a href="" class="btn btn-light m-1">Photographers</a>
+                            <a href="" class="btn btn-light m-1">Caterers</a>
+                            <a href="" class="btn btn-light m-1">Makeup Artists</a>
+                            <a href="" class="btn btn-light m-1">Mehendi Artists</a>
+                            <a href="" class="btn btn-light m-1">Decorators</a>
+                            <a href="" class="btn btn-light m-1">DJs</a>
+                            <a href="" class="btn btn-light m-1">Rentals</a>
                         </div>
-                    </div>
+                    </div> 
                 </div>
 
                 
@@ -456,11 +615,11 @@
     </div>
 
    
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50  px-md-5 px-lg-10" style="margin-top: 90px;">
+    <!-- Footer start -->
+    <div class="container-fluid bg-dark text-white-50 py-10 px-md-5 px-lg-10" style="margin-top: 90px;">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5 py-10">
-                <a href="" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <h1 class="text-danger"><span class="text-white">Local Trade <br>
                         </span>Street</h1>
                 </a>
@@ -512,16 +671,17 @@
         style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white-50">Copyright &copy; <a href="#">localtardestreetnagpur</a>. All Rights Reserved.</a>
+                <p class="m-0 text-white-50">Copyright &copy; <a href="index.php">localtradestreetnagpur.com</a>. All Rights Reserved.</a>
                 </p>
             </div>
             <!-- <div class="col-lg-6 text-center text-md-right">
-                <p class="m-0 text-white-50">Designed by <a href="https://phpcodex.com">php Codex</a>
+                <p class="m-0 text-white-50">Designed by <a href="https://htmlcodex.com">html Codex</a>
                 </p>
             </div> -->
         </div>
     </div>
     <!-- Footer End -->
+
 
 
     <!-- Back to Top -->

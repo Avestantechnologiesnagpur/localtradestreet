@@ -2,9 +2,8 @@
     <html lang="en">
     
     <head>
-
         <meta charset="utf-8">
-        <title>wedding card info</title>
+        <title>Local Trade Street</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free html Templates" name="keywords">
         <meta content="Free html Templates" name="description">
@@ -50,7 +49,7 @@
                     </div>
                     <div class="col-lg-6 text-center text-lg-right">
                         <div class="d-inline-flex align-items-center">
-                          <a class="text-danger px-3" href="https://www.facebook.com/profile.php?id=100064148859759">
+                          <a class="text-danger px-3" href="https://www.facebook.com/profile.html?id=100064148859759">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                         <a class="text-danger px-3" href="https://twitter.com/LocalTradeStre2">
@@ -90,11 +89,11 @@
                             <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu border-0 rounded-0 m-0">
-                                    <a href="blog.php" class="dropdown-item">Blog Grid</a>
-                                    <a href="single.php" class="dropdown-item">Blog Detail</a>
-                                    <a href="destination.php" class="dropdown-item">Destination</a>
-                                    <a href="guide.php" class="dropdown-item">Travel Guides</a>
-                                    <a href="testimonial.php" class="dropdown-item">Testimonial</a>
+                                    <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                                    <a href="single.html" class="dropdown-item">Blog Detail</a>
+                                    <a href="destination.html" class="dropdown-item">Destination</a>
+                                    <a href="guide.html" class="dropdown-item">Travel Guides</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                 </div>
                             </div> -->
                             <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -122,10 +121,10 @@
           <div id="header-carousel" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                   <div class="carousel-item active">
-                      <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                      <img class="w-100" src="img/wed banner.jpg" alt="Image">
                       <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                           <div class="p-3" style="max-width: 900px;">
-                              <h4 class="display-3 text-white mb-md-4"></h4>
+                              <!-- <h4 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h4> -->
                               <!-- <h1 class="text-white">
                                   Search and apply to millions of Listings</h1>
                               <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
@@ -197,10 +196,10 @@
                       </div>
                   </div>
                   <div class="carousel-item">
-                      <img class="w-100" src="img/mainimage.jpeg" alt="Image">
+                      <img class="w-100" src="img/wed banner.jpg" alt="Image">
                       <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                          <div class="p-3" style="max-width: 900px;">
-                              <h4 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h4>
+                          <div class="p-3" style="max-width: 900px;"> 
+                              <!-- <h4 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h4> -->
                               <!-- <h1 class="text-white-50">
                                   Search and apply to millions of Listings</h1>
                               <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
@@ -293,45 +292,42 @@
           </div> -->
           
           <div class="container mt-5">
-            <div class="card mb-3" style="max-width: 1000px; margin-left: 10px;">
+            <div class="card mb-3" style="width: 1000px; margin-left:75px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                   <img src="img/friendcard.jpg" class="img-fluid rounded-start" alt="...">
+                    <a href="w2.php"><img src="img/wed 1.jpg" width="304px" height="278px" style="padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">  
                     <div class="card-body">
                       <h5 class="card-title">
-                        Friends Card</h5>
+                        Sanjivan Sabhagruh and Lawn </h5>
                         <span class="glyphicon glyphicon-envelope"></span>
-                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i> &nbsp; Opposite Binjani Collage.
-                        Nagpur - 440010 </p>
+                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i> &nbsp;  Near Budha Bhumi, Khairi, Kamptee Rd, Nagpur, Maharashtra 441001</p>
                       
-                  <p class="card-text"><i class='fas fa-tty'></i> &#xf095;</i>
-                       9096015645,   9922389036</p>
-                     More info</a>
+                  <p class="card-text"><i class='fas fa-tty'></i> &nbsp;7821030523.</p>
+                  <p class="card-text"> More info</a>
                     </div>
-                    <div class="getenquiry" style="margin-left: 20px;">
+                    <div class="getenquiry" style="margin-bottom: 25px; margin-left: 20px;">
                       <button type="button" style="border-radius: 10px;" class="btn btn-primary btn-lg"><i style="font-size:24px" class="fa">&#xf0e0;</i> &nbsp;  Get-Enquiry</button>
     
                     </div>
                   </div>
                 </div>
               </div>
-    
+            </div>
           </div>
-            <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
+             <div class="card mb-3" style="max-width: 1000px; margin-left: 192px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/bb card.jpg" width="320px" height="220px" style="padding: 5px 5px;" img-fluid rounded-start" alt="...">
+                    <a href="w3.php"><img src="img/wed 2.jpg" width="304px" height="278px" style="padding: 5px 5px;" img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">
-                        B.B. Cards Choice Dharmpeth  </h5>
-                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i>&nbsp;  B.B. Complex, Near  W.H.C. Road, 
-                         Nagpur - 440016.</p>
-                        <p class="card-text"> <i class='fas fa-tty'></i> &nbsp; 9309729615</p>
-                        <a href="">more info</a>
+                        Maai Celebration Hall And Form House.</h5>
+                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i>&nbsp;  Maai Farm House And Resort, Kuhi Fata, Dongargaon, Umred Road, Nagpur, Maharashtra 440024.</p>
+                        <p class="card-text"> <i class='fas fa-tty'></i> &nbsp; 8999750747.</p>
+                        <p class="card-text"> more info</a>
                       </div>
                       <div class="getenquiry" style="margin-bottom: 25px; margin-left: 20px;">
                         <button type="button" style="border-radius: 10px;" class="btn btn-primary btn-lg"><i style="font-size:24px;" class="fa" >&#xf0e0;</i> &nbsp;  Get-Enquiry</button>
@@ -346,19 +342,18 @@
             <div class="card mb-3" style="max-width: 1000px; padding:5px 5px; margin-left: 195px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/bb card.jpg " width="300px"  class="img-fluid rounded-start" alt="...">
+                    <a href="w4.php"><img src="img/wed 3.jpg " width="304px" height="400px" style="padding: 5px 5px;"  class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">B.B. Cards Chhoice
-                      </h5>
+                      <h5 class="card-title">
+                        Jay Lawn - Weeding Hall & Event</h5>
                     
-                      <p class="card-text"><i class='fas fa-map-marker-alt'></i> &nbsp; B.B. Complex, Gandhigate, Near Shivaji..
-                         Nagpur - 440010. </p>
-                      <p class="card-text"> <i class='fas fa-tty'></i>&nbsp; 9579121309.</p>
-                      <a href="">more info</a>
+                      <p class="card-text"><i class='fas fa-map-marker-alt'></i> &nbsp;  Near Jakat Naka, Trimbakeshwar Rd, Pimpalgaon Bahula, Nashik, Maharashtra 422011.</p>
+                      <p class="card-text"> <i class='fas fa-tty'></i>&nbsp;  09823124486.</p>
+                      <p class="card-text">more info</a>
                     </div>
-                    <div class="getenquiry" style="margin-left: 15px;">
+                    <div class="getenquiry" style="margin-bottom: 25px; margin-left: 20px;">
                       <button type="button" style="border-radius: 10px;" class="btn btn-primary btn-lg"><i style="font-size:24px" class="fa">&#xf0e0;</i> &nbsp;  Get-Enquiry</button>
     
                     </div>
@@ -371,18 +366,17 @@
             <div class="card mb-3"  style="max-width: 1000px; margin-left: 195px;" >
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/max.jpg" style="height: 250px; margin-bottom: 20px; padding: 5px 5px;"   class="img-fluid rounded-start" alt="...">
+                    <a href="w5.php"><img src="img/wed 4.jpg" width="304px" height="400px" style="padding: 5px 5px;"  class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">
-                        Max Photo Studios </h5>
-                      <p class="card-text"><i class='fas fa-map-marker-alt'></i>&nbsp;  Tawkkal lay Out WAdi Near..
-                         Nagpur - 440001 </p>
-                        <p class="card-text"> <i class='fas fa-tty'></i> &nbsp; 9011109063.</p>
-                        <a href="https://www.pickeronline.com/nagpur/cherries-n-chillies-international-cuisine-restaurant">more info</a>
+                        Shubham Lawn</h5>
+                      <p class="card-text"><i class='fas fa-map-marker-alt'></i>&nbsp;  Navnath ITI Road 22- B Dighori Busstop, near Sarvashree School, Bank Colony, Nagpur, Maharashtra 440034 </p>
+                        <p class="card-text"> <i class='fas fa-tty'></i> &nbsp;   09923314198.</p>
+                        <p class="card-text">more info</a>
                       </div>
-                      <div class="getenquiry" style="margin-bottom: 20px;">
+                      <div class="getenquiry" style="margin-bottom: 20px; margin-left: 20px;">
                         <button type="button" style="border-radius: 10px;" class="btn btn-primary btn-lg"><i style="font-size:24px" class="fa">&#xf0e0;</i> &nbsp;  Get-Enquiry</button>
       
                       </div>
@@ -392,20 +386,19 @@
               </div>
     
           </div>
-            <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
+              <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/djcard.jpeg" style="margin-top: 20px; height: 230px; padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
+                    <a href="w6.php"><img src="img/wed 5.jpg" width="304px" height="400px" style="padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">DJ Saans
+                      <h5 class="card-title">Oberoi Palace Banquet and lawn
                       </h5>
-                      <p class="card-text"><i class='fas fa-map-marker-alt'></i> &nbsp; Jaitala Road, Near Jaitala Bus..
-                         Nagpur - 440010. </p>
+                      <p class="card-text"><i class='fas fa-map-marker-alt'></i> &nbsp;  548, Kalmana Market Road, near maruti automotive square, Ekta Colony, Nagpur, Maharashtra 440026 </p>
                         <p class="card-text"><i class='fas fa-tty'></i> &nbsp;
-                           9665623299.</p>
-                        <a href="">more info</a>
+                            9890634618, 8888800000.</p>
+                            <p class="card-text">more info</a>
                       </div>
                       <div class="getenquiry" >
                         <button type="button" style="border-radius: 10px; margin-bottom: 20px;" class="btn btn-primary btn-lg"><i style="font-size:24px" class="fa">&#xf0e0;</i> &nbsp;  Get-Enquiry</button>
@@ -414,22 +407,21 @@
                       </div>
                   </div>
                 </div>
-              </div>
+              </div> 
     
-          </div>
-            <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
+           </div>
+            <!-- <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/kirancard.jpg" style="height: 250px; padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
+                    <a href="sparsh_skindental.html"><img src="img/denties 6.png" style="height: 250px; padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">
-                       Kiran Cards </h5>
-                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i> &nbsp; shop no. 16 Mangalam Shradha..
-                         Nagpur - 440010. </p>
-                        <p class="card-text"> <i class='fas fa-tty'></i> &nbsp; 9921858418.</p>
-                        <a href="">more info</a>
+                        Sparsh Skin & Dental Clinic</h5>
+                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i> &nbsp;  bus stand, 2/2 Govind nagar, near guru hotel, opposite pandari, Raipur, Chhattisgarh-492001 </p>
+                        <p class="card-text"> <i class='fas fa-tty'></i> &nbsp;  09795224877.</p>
+                        more info</a>
                       </div>
                       <div class="getenquiry" style="margin-bottom: 20px; margin-left: 10px;">
                         <button type="button" style="border-radius: 10px;" class="btn btn-primary btn-lg"><i style="font-size:24px" class="fa">&#xf0e0;</i> &nbsp;  Get-Enquiry</button>
@@ -440,20 +432,19 @@
                 </div>
               </div>
     
-          </div>
-            <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
+          </div> -->
+            <!-- <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/ab.png" style="height:250px ; padding: 10px 7px;" class="img-fluid rounded-start" alt="...">
+                    <a href="rakshit_dental.html"><img src="img/denties 7.jpg" style="height:250px ; padding: 10px 7px;" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">
-                       A.B. Photo Studios</h5>
-                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i> &nbsp; Near Tilak Palace, Tilak Road
-                         Nagpur - 440012. </p>
-                        <p class="card-text"><i class='fas fa-tty'></i>&nbsp; 9175587430.</p>
-                        <a href="https://www.pickeronline.com/nagpur/cherries-n-chillies-international-cuisine-restaurant">more info</a>
+                        Rakshit Dental Clinic and Orthodontics</h5>
+                      <p class="card-text"> <i class="fas fa-map-market-alt"></i> &nbsp; Mission Hospital Rd, Juni Line, Bilaspur, Chhattisgarh 495001 </p>
+                        <p class="card-text"><i class='fas fa-tty'></i>&nbsp;   9158559942, 9425542366.</p>
+                        more info</a>
                       </div>
                       <div class="getenquiry" style="margin-bottom: 20px; margin-left: 10px;">
                         <button type="button" style="border-radius: 10px;" class="btn btn-primary btn-lg"><i style="font-size:24px" class="fa">&#xf0e0;</i> &nbsp;  Get-Enquiry</button>
@@ -462,22 +453,21 @@
                       </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
     
-          </div>
+          <!-- </div>
             <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/ayuhsh.jpg" style="padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
+                    <a href="sameer_dental.html"><img src="img/denties 8.jpg" style="padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">
-                        Aayush Creation</h5>
-                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i>&nbsp plot no. 32 Resedency road
-                         Nagpur - 440022. </p>
-                        <p class="card-text"><i class='fas fa-tty'></i> &nbsp; 93736611970.</p>
-                        <a href="https://www.pickeronline.com/nagpur/cherries-n-chillies-international-cuisine-restaurant">more info</a>
+                        DR. SAMEER D. SONAR Dental Clinic</h5>
+                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i>&nbsp shop no 3. Harijyot Apt, near Shanti Park, Matoshri Nagar, Upnagar, Nashik, Maharashtra-422006 </p>
+                        <p class="card-text"><i class='fas fa-tty'></i> &nbsp; 9890634618.</p>
+                        more info</a>
                       </div>
                       <div class="getenquiry" style="border-radius: 50%;">
                         <button type="button" style="border-radius: 10px;" class="btn btn-primary btn-lg"><i style="font-size:24px" class="fa">&#xf0e0;</i> &nbsp;  Get-Enquiry</button>
@@ -488,19 +478,19 @@
                 </div>
               </div>
     
-          </div>
-            <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
+          </div>    -->
+            <!-- <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/abhay photo.jpg" style="height: 250px;padding: 5px 5px" class="img-fluid rounded-start" alt="...">
+                    <img src="img/deal 9.jpg" style="height: 250px;padding: 5px 5px" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">
-                       Abhay card & photography </h5>
-                      <p class="card-text"><i class='fas fa-map-marker-alt'></i>&nbsp;  Electronic market shani mandir road..
-                        S Nagpur - 440001. </p>
-                        <p class="card-text"> <i class='fas fa-tty'></i> &nbsp; 7774007370</p>
+                        Alina Autodeal</h5>
+                      <p class="card-text"><i class='fas fa-map-marker-alt'></i>&nbsp;    Manjidana Colony, Katol Road,
+                        Gittikhadan, Nagpur - 440013. </p>
+                        <p class="card-text"> <i class='fas fa-tty'></i> &nbsp;  8805864673, 7719951261.</p>
                         <a href="">more info</a>
                       </div>
                       <div class="getenquiry" style="margin-left: 10px;">
@@ -516,15 +506,15 @@
             <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/aaditya.jpg" style="height: 250px;padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
+                    <img src="img/deal 10.jpg.crdownload" style="height: 250px;padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">
-                       Aditya Photo Studios</h5>
-                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i> &nbsp; 7&8  Gopal Nagar 
-                        Nagpur - 440016. </p>
-                        <p class="card-text"> <i class='fas fa-tty'></i> &nbsp; 7385245431</p>
+                        Aditya Motors</h5>
+                      <p class="card-text"><i class="fas fa-map-marker-alt"></i>&nbsp;  Yashwant Stadium, Dhantoli
+                        Bagadganj, Nagpur - 440008. </p>
+                        <p class="card-text"> <i class='fas fa-tty'></i> &nbsp;   712-2528865.</p>
                         <a href="https://www.pickeronline.com/nagpur/cherries-n-chillies-international-cuisine-restaurant">more info</a>
                       </div>
                       <div class="getenquiry">
@@ -540,17 +530,16 @@
             <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/aakruti.png" style="padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
+                    <img src="img/deal 11.jpg" style="padding: 5px 5px;" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">
-                        Akruti card & Digital Photo, Videos</h5>
+                        Aurora Scooters</h5>
                         
-                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i>&nbsp; Plot no. 471 near big
-                         Nagpur - 440010.
-                    </p>
-                        <p class="card-text">94208539943.</p>
+                      <p class="card-text"> <i class='fas fa-map-marker-alt'></i>&nbsp;  Main Road, Jaripatka
+                        Nagpur - 440014.</p>
+                        <p class="card-text"> 712-2642511.</p>
                         <a href="https://www.pickeronline.com/nagpur/cherries-n-chillies-international-cuisine-restaurant">more info</a>
                       </div>
                       <div class="getenquiry" >
@@ -563,18 +552,18 @@
               </div>
     
           </div>
-            <!-- <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
+            <div class="card mb-3" style="max-width: 1000px; margin-left: 195px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/res 15.jpeg" style="padding: 5px 5px;"  class="img-fluid rounded-start" alt="...">
+                    <img src="img/deal 12.jpg" style="padding: 5px 5px;"  class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">
-                        </h5>
-                      <p class="card-text"><i class='fas fa-map-marker-alt'></i>&nbsp; Gokul Govind Apartment, Jaitala Square, Ring Road,
-                        Trimurti Nagar, Nagpur - 440022. </p>
-                        <p class="card-text"><i class='fas fa-tty'></i> &nbsp; 0712-6555711, 7773003770.</p>
+                        Bharat Auto Deals</h5>
+                      <p class="card-text"><i class='fas fa-map-marker-alt'></i>&nbsp; Opposite Devadiya Congress Bhavan, Near Shyam Talkies,
+                        Gandhibagh, Nagpur - 440002. </p>
+                        <p class="card-text"><i class='fas fa-tty'></i> &nbsp; 8329334711..</p>
                         <a href="">more info</a>
                       </div>
                       <div class="getenquiry" >
@@ -584,11 +573,11 @@
                       </div>
                   </div>
                 </div>
-              </div> -->
+              </div>
     
           </div>
       
-            
+             -->
         </div>
         
         </div>
@@ -596,7 +585,7 @@
         <div class="container-fluid bg-dark text-white-50 py-10 px-md-5 px-lg-10" style="margin-top: 90px;">
           <div class="row pt-5">
               <div class="col-lg-3 col-md-6 mb-5 py-10">
-                  <a href="" class="navbar-brand">
+                  <a href="index.php" class="navbar-brand">
                       <h1 class="text-danger"><span class="text-white">Local Trade <br>
                           </span>Street</h1>
                   </a>
@@ -604,7 +593,7 @@
                   <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
                   <div class="d-flex justify-content-start">
                     <a class="btn btn-outline-danger btn-square mr-2" href="https://twitter.com/LocalTradeStre2"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-danger btn-square mr-2" href="https://www.facebook.com/profile.php?id=100064148859759"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-danger btn-square mr-2" href="https://www.facebook.com/profile.html?id=100064148859759"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-danger btn-square mr-2" href="https://www.linkedin.com/in/local-trade-street-34648a248/"><i class="fab fa-linkedin-in"></i></a>
                     <a class="btn btn-outline-danger btn-square" href="https://www.instagram.com/localtradestreets/"><i class="fab fa-instagram"></i></a>
                   </div>
@@ -618,12 +607,12 @@
                     <a class="text-white-50 mb-2" href="package.php"><i class="fa fa-angle-right mr-2"></i>Login</a>
                     <!-- <a class="text-white-50 mb-2" href=""><i class="fa fa-angle-right mr-2"></i>Login</a>
                     <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a> -->
-                    <a class="text-white-50" href="service.php"><i class="fa fa-angle-right mr-2"></i>Submit Listing</a>
+                    <a class="text-white-50" href="service.html"><i class="fa fa-angle-right mr-2"></i>Submit Listing</a>
                   </div>
               </div>
               <div class="col-lg-3 col-md-6 mb-5">
                   <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
-                  <p><i class="fa fa-map-marker-alt mr-2"></i>   Old Dnyaneshwar Nagar, New    Dnyaneshwar Nagar,   Rameshwari,Nagpur, Maharashtra 440027</p>
+                  <p><i class="fa fa-map-marker-alt mr-2"></i>Old Dnyaneshwar Nagar, New Dnyaneshwar Nagar, Rameshwari, Nagpur, Maharashtra 440027</p>
                     <p><i class="fa fa-phone-alt mr-2"></i>+91 70586 90562</p>
                     <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p>
                   <!-- <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
@@ -635,8 +624,8 @@
                               <button class="btn btn-primary px-3">Sign Up</button>
                           </div>
                       </div>
-                  </div> 
-              </div>-->
+                  </div> -->
+              </div>
               <!-- <div class="col-lg-3 col-md-6 mb-5">
                   <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Find US</h5>
                   <img src="img/location.jpg" class="image-fluid w-100"/>
@@ -648,15 +637,14 @@
           style="border-color: rgba(256, 256, 256, .1) !important;">
           <div class="row">
               <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                  <p class="m-0 text-white-50">Copyright &copy; <a href="#">localtardestreetnagpur</a>. All Rights Reserved.</a>
+                  <p class="m-0 text-white-50">Copyright &copy; <a href="#">localtradestreetnagpur</a>. All Rights Reserved.</a>
                   </p>
               </div>
               <!-- <div class="col-lg-6 text-center text-md-right">
-                  <p class="m-0 text-white-50">Designed by <a href="https://phpcodex.com">php Codex</a>
+                  <p class="m-0 text-white-50">Designed by <a href="https://htmlcodex.com">html Codex</a>
                   </p>
               </div> -->
           </div>
       </div>
     </body>
     </html>
-          

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<php lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Restaurant Info</title>
+    <title>furniture info</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free html Templates" name="keywords">
-    <meta content="Free html Templates" name="description">
+    <meta content="Free php Templates" name="keywords">
+    <meta content="Free php Templates" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <p><i class="fa fa-envelope mr-2"></i>localtradestreetnagpur@gmail.com</p>
+                        <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p>
                         <p class="text-body px-3">|</p>
                         <p><i class="fa fa-phone-alt mr-2"></i>+91 70586 90562</p>
                 </div>
@@ -107,11 +107,11 @@
     <div class="container-fluid page-header">
         <div class="container">
             <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-                <!-- <h3 class="display-4 text-white text-uppercase">Restaurant Detail</h3> -->
+                <h3 class="display-4 text-white text-uppercase">  Furniture </h3>
                 <div class="d-inline-flex text-white">
-                    <!-- <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p> -->
-                    <!-- <i class="fa fa-angle-double-right pt-1 px-3"></i> -->
-                    <!-- <p class="m-0 text-uppercase">Restaurant Detail</p> -->
+                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                    <p class="m-0 text-uppercase">furniture Details</p>
                 </div>
             </div>
         </div>
@@ -127,7 +127,7 @@
                         <div class="blog-item">
                             <div class="position-relative">
                                 <!-- <h2 class="mb-3">Cherries n Chillies International Cuisine Restaurant</h2> -->
-                                <img class="img-fluid w-100" src="img/cherries.jpg" alt="Cherries">
+                                <img class="img-fluid w-100" src="img/Reva.jpg" alt="">
                                 <div class="blog-date">
                                     <h6 class="font-weight-bold mb-n1"><span style="background-color: #ff1717;"></span></h6>
                                     <small class="text-white text-uppercase"><span style="background-color: #ff1717;"></span></small>
@@ -137,7 +137,7 @@
                         <div class="bg-white mb-3" style="padding: 30px;">
                             <div class="container">
                                 <div class="header">
-                                    <h1 itemprop="name">Cherries n Chillies International Cuisine Restaurant</h1>
+                                    <h1 itemprop="name">Reva Furniture</h1>
                                       <ul class="list-group b-info" style="margin-bottom: 4px; ">
                                           <li class="list-group-item"> 
                                               <div class="pull-left" style="width:100px; height:24px; margin-top: 4px;">
@@ -156,8 +156,8 @@
                                               <div class="clearfix"></div>
                                           </li>
                                           
-                                          <li class="list-group-item"><i class='fas fa-phone'></i> <a href="tel:0712-2241941" itemprop="telephone">0712-2241941</a>.</li><li itemprop="telephone" class="list-group-item"><i class='fas fa-mobile-alt'></i> <a href="tel:9371513961" itemprop="telephone">9371513961</a>.</li> <li itemprop="email" class="list-group-item"><i class='fas fa-envelope-open'></i> <a href="mailto:info@cherriesnchillies.com">info@cherriesnchillies.com</a></li><li class="list-group-item"><i class="fa fa-globe"></i> <a itemprop="sameAs" target="_blank" href="http://www.cherriesnchillies.com/" rel="nofollow">http://www.cherriesnchillies.com/</a></li><li class="list-group-item" itemprop="address"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                                            <span itemprop="streetAddress" style="color:#ff1717;">Plot No. 22, NIT Complex, Hill Road,</span><br>&nbsp; &nbsp;&nbsp; <span style="color:#ff1717;" itemprop="addressLocality" style="color:#ff1717;">Gandhi Nagar</span>, <span itemprop="addressRegion"style="color:#ff1717;">Nagpur</span> - <span style="color:#ff1717;" itemprop="postalCode">440010</span>.</li>
+                                          <li class="list-group-item"><i class='fas fa-phone'></i> <a href="tel:0712-2241941" itemprop="telephone">8819029199</a>.</li><li itemprop="telephone" class="list-group-item"><i class='fas fa-mobile-alt'></i> <a href="tel:9371513961" itemprop="telephone">9340782741</a>.</li> <li itemprop="email" class="list-group-item"><i class='fas fa-envelope-open'></i> <a href="mailto:">info@revafurniture.com</a></li><li class="list-group-item"><i class="fa fa-globe"></i> <a itemprop="sameAs" target="_blank" href="http://" rel="nofollow">http://www.revafurniture.com</a></li><li class="list-group-item" itemprop="address"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <span itemprop="streetAddress" style="color:#ff1717;"> Behind subh motors mahananda madan Mahal  </span> &nbsp;&nbsp; <span style="color:#ff1717;" itemprop="addressLocality" style="color:#ff1717;"></span>, <span itemprop="addressRegion"style="color:#ff1717;">jabalpur</span> - <span style="color:#ff1717;" itemprop="postalCode">482001</span>.</li>
                                       </ul> 
                                       <div class="row pt-3">
                                         <div class="col-xs-3 col-sm-1 profile-bottom ">
@@ -214,7 +214,7 @@
                                 <div class="col">
                                     <h2 class="title">Opening Hours</h2> 
                                     <table style="margin:auto;" class="table table-bordered">
-                                        <tbody><tr><td>Mon </td><td><span style="font-size:12px;">10:00am - 7:00am </span></td></tr><tr><td>Tue </td><td><span style="font-size:12px;">10:00am - 7:00am </span></td></tr><tr><td>Wed </td><td><span style="font-size:12px;">10:00am - 7:00am </span></td></tr><tr><td>Thu </td><td><span style="font-size:12px;">10:00am - 7:00am </span></td></tr><tr><td>Fri </td><td><span style="font-size:12px;">10:00am - 7:00am </span></td></tr><tr><td>Sat </td><td><span style="font-size:12px;">10:00am - 7:00am </span></td></tr><tr><td>Sun </td><td><span style="font-size:12px;">Closed - Closed </span></td></tr>		</tbody></table>
+                                        <tbody><tr><td>Mon </td><td><span style="font-size:12px;">8:00am - 8:00am </span></td></tr><tr><td>Tue </td><td><span style="font-size:12px;">8:00am - 8:00am</span></td></tr><tr><td>Wed </td><td><span style="font-size:12px;">8:00am - 8:00am </span></td></tr><tr><td>Thu </td><td><span style="font-size:12px;">8:00am - 8:00am </span></td></tr><tr><td>Fri </td><td><span style="font-size:12px;">8:00am - 8:00am</span></td></tr><tr><td>Sat </td><td><span style="font-size:12px;">8:00am - 8:00am</span></td></tr><tr><td>Sun </td><td><span style="font-size:12px;">8:00am - 8:00am </span></td></tr>		</tbody></table>
                                     
                                     <div class="clearfix"></div><br>
                                 </div>
@@ -247,13 +247,14 @@
                                     consetetur at sit.</p>
                                 <button class="btn btn-sm btn-outline-primary">Reply</button>
                                 <div class="media mt-4">
-                            <img src="img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
-                            <div class="media-body">
-                                <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                                <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor
-                                    labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed
-                                    eirmod ipsum. Gubergren clita aliquyam consetetur sadipscing, at tempor amet
-                                    ipsum diam tempor consetetur at sit.</p>
+                                    <img src="img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1"
+                                        style="width: 45px;">
+                                    <div>
+                                        <h6><a href="">John Doe</a> <small><i></i></small></h6>
+                                        <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor
+                                            labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed
+                                            eirmod ipsum. Gubergren clita aliquyam consetetur sadipscing, at tempor amet
+                                            ipsum diam tempor consetetur at sit.</p>
                                         <button class="btn btn-sm btn-outline-primary">Reply</button>
                                     </div>
                                 </div>
@@ -296,22 +297,24 @@
                     <!-- Author Bio -->
                     <div class="d-flex flex-column text-center bg-white mb-5 py-5 px-4">
                         <!-- <img src="img/user.jpg" class="img-fluid mx-auto mb-3" style="width: 100px;"> -->
-                        <h3 class="text-danger mb-3">Description</h3>
-                        <p>Celebrate Flavours of The World with Cherries n Chillies is a international Cuisine Restaurant Nagpur. Our Specialty in Chinese, Italian, Mexican, Thai, South Indian Food and much more.
+                     <h3 class="text-danger mb-3">Description</h3>
+                        <p> Reva Furniture in Madan Mahal, Jabalpur is a reliable name in the industry as they aim to deliver the best experience to their customers. This has helped them build up a loyal customer base. They started their journey in 2014 and ever since, they have ensured that the customer remains at the centre of their business operations and philosophy. As they are located in a favourable neighbourhood, exactly at C/o Anmol Timbers, Mahanadda, Behind Shubh Motors, Nagpur Road, Madan Mahal-482001 near Mahanadda, Behind Shubh Motors, it is easy to locate Reva Furniture on the map. For any kind of assistance or questions, it is best to contact them directly during their business hours.
 
-                            From 12 October LEBANESE FOOD FESTIVAL will start in our exclusive outlet.
+
+
+                            
 </p>
                         <div class="d-flex justify-content-center">
-                            <a class="text-danger px-2" href="">
+                            <a class="text-danger px-2" href="https://www.facebook.com/profile.php?id=100064148859759"></a>
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a class="text-danger px-2" href="">
+                            <a class="text-danger px-2" href="https://twitter.com/LocalTradeStre2">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a class="text-danger px-2" href="">
+                            <a class="text-danger px-2" href="https://www.linkedin.com/in/local-trade-street-34648a248/">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a class="text-danger px-2" href="">
+                            <a class="text-danger px-2" href="https://www.instagram.com/localtradestreets/"">
                                 <i class="fab fa-instagram"></i>
                             </a>
                             <a class="text-danger px-2" href="">
@@ -371,20 +374,20 @@
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
-                                    <img class="d-block w-100" src="img/dish1.jpg" alt="First slide">
+                                    <img class="d-block w-100" src="img/Reva.jpg" alt="First slide">
+                                  </div>
+                                  <!-- <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/" alt="Second slide">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/dish2.jpg" alt="Second slide">
+                                    <img class="d-block w-100" src="img/" alt="Third slide">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/dish3.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="img/" alt="Forth slide">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/dish4.jpg" alt="Forth slide" slide">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/dish5.jpg" alt="Fifth slide">
-                                  </div>
+                                    <img class="d-block w-100" src="img/" alt="Fifth slide">
+                                  </div> -->
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -436,12 +439,13 @@
                     <div class="mb-5 pt-5">
                         <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Services</h4>
                         <div class="d-flex flex-wrap m-n1">
-                            <a href="" class="btn btn-light m-1">International Cuisins</a>
-                            <a href="" class="btn btn-light m-1">Mocktails</a>
-                            <a href="" class="btn btn-light m-1">Indian Food</a>
-                            <a href="" class="btn btn-light m-1">Thai Food</a>
-                            <a href="" class="btn btn-light m-1">Maxican Food</a>
-                            <a href="" class="btn btn-light m-1">Coffe and Tea</a>
+                            <a href="" class="btn btn-light m-1">Furniture Dealer</a>
+                            <a href="" class="btn btn-light m-1">Furniture Manufacturing</a>
+                            <a href="" class="btn btn-light m-1">Furniture Dealer</a>
+                            <a href="" class="btn btn-light m-1">Bed Dealer</a>
+                            <a href="" class="btn btn-light m-1">Office Furniture Dealer</a>
+                            <!-- <a href="" class="btn btn-light m-1">Electrnic shop</a>
+                            <a href="" class="btn btn-light m-1">Computer Dealer</a> -->
                         </div>
                     </div>
                 </div>
@@ -487,7 +491,7 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>Old Dnyaneshwar Nagar, New Dnyaneshwar Nagar, Rameshwari, Nagpur, Maharashtra 440027</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Old Dnyaneshwar Nagar, New    Dnyaneshwar Nagar,   Rameshwari,Nagpur, Maharashtra 440027</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+91 70586 90562</p>
                 <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p>
                 <!-- <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
@@ -500,12 +504,12 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
-            <!-- <div class="col-lg-3 col-md-6 mb-5">
+            <!-- </div>
+            <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Find US</h5>
                 <img src="img/location.jpg" class="image-fluid w-100"/>
-                </div> -->
-            </div>
+                </div>
+            </div> -->
         </div>
     </div>
     <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
@@ -545,4 +549,4 @@
     <script src="js/main.js"></script>
 </body>
 
-</html>
+</php>
