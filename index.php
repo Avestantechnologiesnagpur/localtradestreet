@@ -1,12 +1,12 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>Local Trade Street</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free php Templates" name="keywords">
-    <meta content="Free php Templates" name="description">
+    <meta content="Free html Templates" name="keywords">
+    <meta content="Free html Templates" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p>
+                       <a href= mailto:marketing@localtrade.com> <p><i class="fa fa-envelope mr-2"></i>marketing@localtradestreet.com</p></a>
                         <p class="text-body px-3">|</p>
                         <p><i class="fa fa-phone-alt mr-2"></i>+91 70586 90562</p>
                     </div>
@@ -67,15 +67,15 @@
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="" class="navbar-brand">
-                    <h1 class="m-0" style="color:#ff1717 ;"><img src="img/logo.jpeg " style="border-radius: 50%;"><span class="text-dark">Local Trade </span>Street</h1>
+                <a href="index.php" class="navbar-brand">
+                    <h1 class="m-0" style="color:#ff1717 ;"><img src="img/logo.jpeg " style="border-radius: 50%;"> &nbsp;<span class="text-dark">Local Trade </span>Street</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
@@ -142,7 +142,7 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="mb-3 mb-md-0">
-                                                        <div class="date" id="date1" data-target-input="nearest">
+                                                        <div>
                                                             <input type="text"
                                                                 class="form-control p-4 datetimepicker-input"
                                                                 placeholder="Location" data-target="#date1"
@@ -179,75 +179,72 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/l2.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3 mt-3" style="max-width: 900px;"> 
-                            <!-- <h6 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h6> -->
-                            <!-- <h1 class="text-white-50">
+                <!--<div class="carousel-item">-->
+                    <!--<img class="w-100" src="img/l2.jpg" alt="Image">-->
+                    <!--<div class="carousel-caption d-flex flex-column align-items-center justify-content-center">-->
+                        <!--<div class="p-3 mt-3" style="max-width: 900px;"> -->
+                             <!--<h6 class="display-3 text-white mb-md-4">Welcome to Local Trade Street</h6> -->
+                             <!--<h1 class="text-white-50">-->
                                 Search and apply to millions of Listings</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
-                        </div> <br><br>
-                        <div class="container-fluid booking mt-5 pb-5">
-                            <div class="container pb-5">
-                                <div class="shadow" style="padding: 30px;">
-                                    <div class="row align-items-center" style="min-height: 60px;">
-                                        <div class="col-md-10">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="mb-3 mb-md-0">
-                                                        <select class="custom-select px-4" style="height: 47px;">
-                                                            <option selected>what are you looking for ?</option>
-                                                            <option value="1">Beauty</option>
-                                                            <option value="2">Automobile</option>
-                                                            <option value="3">Doctor</option>
-                                                            <option value="4">Real Estate</option>
-                                                            <option value="5">IT</option>
-                                                            <option value="6">Pets</option>
-                                                            <option value="7">Wedding</option>
-                                                            <option value="8">Furniture</option>
-                                                            <option value="9">Hospital</option>
-                                                            <option value="10">Restaurants</option>
-                                                            <option value="11">Security Services</option>
-                                                            <option value="12">Tours & travels</option>
-                                                            <option value="13">Insurance</option>
+                        <!--    <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->-->
+                        <!--</div> <br><br>-->
+                        <!--<div class="container-fluid booking mt-5 pb-5">-->
+                        <!--    <div class="container pb-5">-->
+                                <!--<div class="shadow" style="padding: 30px;">-->
+                                    <!--<div class="row align-items-center" style="min-height: 60px;">-->
+                                    <!--    <div class="col-md-10">-->
+                                    <!--        <div class="row">-->
+                                    <!--            <div class="col-md-6">-->
+                                    <!--                <div class="mb-3 mb-md-0">-->
+                                    <!--                    <select class="custom-select px-4" style="height: 47px;">-->
+                                    <!--                        <option selected>what are you looking for ?</option>-->
+                                    <!--                        <option value="1">Beauty</option>-->
+                                    <!--                        <option value="2">Automobile</option>-->
+                                    <!--                        <option value="3">Doctor</option>-->
+                                    <!--                        <option value="4">Real Estate</option>-->
+                                    <!--                        <option value="5">IT</option>-->
+                                    <!--                        <option value="6">Pets</option>-->
+                                    <!--                        <option value="7">Wedding</option>-->
+                                    <!--                        <option value="8">Furniture</option>-->
+                                    <!--                        <option value="9">Hospital</option>-->
+                                    <!--                        <option value="10">Restaurants</option>-->
+                                    <!--                        <option value="11">Security Services</option>-->
+                                    <!--                        <option value="12">Tours & travels</option>-->
+                                    <!--                        <option value="13">Insurance</option>-->
 
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="mb-3 mb-md-2">
-                                                        <div class="date" id="date1" data-target-input="nearest">
-                                                            <input type="text"
-                                                                class="form-control p-4 datetimepicker-input"
-                                                                placeholder="Location" data-target="#date1"
-                                                                data-toggle="datetimepicker" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div class="mb-3 mb-md-0">
-                                                        <!-- <div class="date" id="date2" data-target-input="nearest">
-                                                            <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
-                                                        </div> -->
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <!-- <div class="mb-3 mb-md-0">
-                                                        <select class="custom-select px-4" style="height: 47px;">
-                                                            <option selected>Duration</option>
-                                                            <option value="1">Duration 1</option>
-                                                            <option value="2">Duration 1</option>
-                                                            <option value="3">Duration 1</option>
-                                                        </select>
-                                                    </div> -->
-                                                </div>
+                                    <!--                    </select>-->
+                                    <!--                </div>-->
+                                    <!--            </div>-->
+                                    <!--            <div class="col-md-6">-->
+                                    <!--                <div class="mb-3 mb-md-2">-->
+                                    <!--                    <div class="date" id="date1" data-target-input="nearest">-->
+                                    <!--                        <input type="text"-->
+                                    <!--                            class="form-control p-4 datetimepicker-input"-->
+                                    <!--                            placeholder="Location" data-target="#date1"-->
+                                    <!--                            data-toggle="datetimepicker" />-->
+                                    <!--                    </div>-->
+                                    <!--                </div>-->
+                                    <!--            </div>-->
+                                                <!--<div class="col-md-3">-->
+                                                <!--    <div class="mb-3 mb-md-0">-->
+                                                <!--         <div class="date" id="date2" data-target-input="nearest">-->
+                                                <!--            <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>-->
+                                                <!--        </div>-->
+                                                <!--    </div>-->
+                                                <!--</div>-->
+                                                <!--<div class="col-md-3">-->
+                                                <!--     <div class="mb-3 mb-md-0">-->
+                                                <!--        <select class="custom-select px-4" style="height: 47px;">-->
+                                                <!--            <option selected>Duration</option>-->
+                                                <!--            <option value="1">Duration 1</option>-->
+                                                <!--            <option value="2">Duration 1</option>-->
+                                                <!--            <option value="3">Duration 1</option>-->
+                                                <!--        </select>-->
+                                                <!--    </div>-->
+                                                <!--</div>-->
                                             </div>
                                         </div>
-                                        <div class="col-md-2">
-                                            <button class="btn btn-primary btn-block" type="submit"
-                                                style="height: 47px; margin-top: -2px; background-color: #ff1717;">Send</button>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -255,16 +252,7 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
-                <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-prev-icon mb-n2"></span>
-                </div>
-            </a>
-            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
-                <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-next-icon mb-n2"></span>
-                </div>
-            </a>
+            
         </div>
     </div>
  <!-- Carousel End -->
@@ -279,7 +267,7 @@
 </div>
      <div class="owl-carousel testimonial-carousel">
         <div class="text-center pb-4">
-            <img class="img-fluid mx-auto" src="img/b1.jfif" style="width: 100%; height: 300px;">
+            <img class="img-fluid mx-auto" src="img/gy4.jpg" style="width: 100%; height: 300px;">
             <div class="testimonial-text bg-white p-4 mt-n5">
                 <!-- <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod
                     eos labore diam
@@ -289,7 +277,7 @@
             </div>
         </div>
         <div class="text-center">
-            <img class="img-fluid mx-auto" src="img/b1.jfif" style="width: 100%; height: 300px;">
+            <img class="img-fluid mx-auto" src="img/gy3.jpg" style="width: 100%; height: 300px;">
             <div class="testimonial-text bg-white p-4 mt-n5">
                 <!-- <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod
                     eos labore diam
@@ -299,7 +287,7 @@
             </div>
         </div>
         <div class="text-center">
-            <img class="img-fluid mx-auto" src="img/b3.jfif" style="width: 100%; height: 300px;">
+            <img class="img-fluid mx-auto" src="img/slider3.jpg" style="width: 100%; height: 300px;">
             <div class="testimonial-text bg-white p-4 mt-n5"> 
                 <!-- <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod
                     eos labore diam
@@ -309,7 +297,7 @@
             </div>
         </div>
         <div class="text-center">
-            <img class="img-fluid mx-auto" src="img/b4.jfif" style="width: 100%; height: 300px;">
+            <img class="img-fluid mx-auto" src="img/gymmm.jpg" style="width: 100%; height: 300px;">
             <div class="testimonial-text bg-white p-4 mt-n5"> 
                 <!-- <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod
                     eos labore diam
@@ -319,7 +307,7 @@
             </div>
         </div>
         <div class="text-center">
-            <img class="img-fluid mx-auto" src="img/b5.jfif" style="width: 100%; height: 300px;">
+            <img class="img-fluid mx-auto" src="img/gy2.jpg" style="width: 100%; height: 300px;">
             <div class="testimonial-text bg-white p-4 mt-n5"> 
                 <!-- <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod
                     eos labore diam
@@ -339,7 +327,7 @@
                 <h6 class="text-danger text-uppercase" style="letter-spacing: 5px;"><b>Services</b></h6>
                 <h1>Popular Services</h1>
             </div>
-            <div class="row text-danger">
+            <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
                    <a href="restaurants.php"> <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <img style="height: 100px; width: 100px;"
@@ -351,18 +339,18 @@
                         <p class="m-0">
                             Search,
                             Pick, Visit....
-                        </p>
-                    </div></a>
+                         </a></p>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                  <a href="doctor.php"> <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <img style="height: 100px; width: 100px;"
                             src="https://akam.cdn.jdmagicbox.com/images/icontent/jdrwd_new/Doctors.jpg" alt="" /><br>
 
                         <br>
-                        <a href="doctor.php"><h5 class="mb-2">DOCTORS</h5>
-                            <p class="m-0">
-                                Dentists, Dermatologists, ENT, more..</p></a>
+                        <h5 class="mb-2">DOCTORS</h5>
+                        <p class="m-0"> 
+                        Dentists, Dermatologists, ENT, more..</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -374,7 +362,7 @@
                         <br>
                         <h5 class="mb-2">Schools & Colleges </h5>
                         <p class="m-0"> Search,Entry & Enjoy..
-                            </p></a>
+                        </a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -387,30 +375,30 @@
                         <h5 class="mb-2"> Electronics </h5>
                         <p class="m-0">
 
-                            Mobile, Electronics, AC and many more..</p></a>
+                            Mobile, Electronics, AC and many more..</a></p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                       <a href="bank1.php"> <img style="height: 100px; width: 100px;"
-                            src="img/bank.jpg" alt="" /><br>
+                <!--<div class="col-lg-4 col-md-6 mb-4">-->
+                <!--    <div class="service-item bg-white text-center mb-2 py-5 px-4">-->
+                <!--       <a href="bank1.php"> <img style="height: 100px; width: 100px;"-->
+                <!--            src="img/bank.jpg" alt="" /><br>-->
 
-                        <br>
-                        <h5 class="mb-2"> Bank </h5>
-                        <p class="m-0">
+                <!--        <br>-->
+                <!--        <h5 class="mb-2"> Bank </h5>-->
+                <!--        <p class="m-0">-->
 
-                            Credit Cards,Home Loans,Personal Loans,Car Loans</p></a>
-                    </div>
-                </div>
+                <!--            Credit Cards,Home Loans,Personal Loans,Car Loans</a></p>-->
+                <!--    </div>-->
+                <!--</div>-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <a href="travel.php"> <img style="height: 100px; width: 100px;"
                             src="https://akam.cdn.jdmagicbox.com/images/icontent/jdrwd_new/travel.jpg" alt="" /><br>
 
                         <br>
-                        <h5 class="mb-2">TRAVEL</h5>
-
-                        Flights, Bus, Hotels, Car Rentals, Train </p></a>
+                        <h5 class="mb-2">TOURS & TRAVELS</h5>
+                        <p class="m-0">
+                        Flights, Bus, Hotels, Car Rentals, Train </a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -420,8 +408,8 @@
 
                         <br>
                         <h5 class="mb-2">REPAIRS</h5>
-
-                        AC, Laptop, Mobile Phone,Washing Machine, more.. </p>
+                        <p class="m-0">
+                        AC, Laptop, Mobile Phone,Washing Machine, more..</a> </p>
                     </div></a>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -432,8 +420,8 @@
                         <br>
                         <h5 class="mb-2">AUTOMOBILES</h5>
 
-
-                        New Cars, Used CarsCar Insurance,Driving Schools more... </p>
+                        <p class="m-0">
+                        New Cars, Used CarsCar Insurance,Driving Schools more... </a></p>
                     </div></a>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -442,10 +430,10 @@
                             src="https://akam.cdn.jdmagicbox.com/images/icontent/jdrwd_new/ondemand.jpg" alt="" /><br>
 
                         <br>
-                        <h5 class="mb-2">REAL STATE</h5>
+                        <h5 class="mb-2">REAL ESTATE</h5>
 
-
-                        Land, Properties and more.. </p></a>
+                        <p class="m-0">
+                        Land, Properties and more.. </a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -456,8 +444,8 @@
                         <br>
                         <h5 class="mb-2">WEDDING</h5>
 
-
-                        Banquet HallsBridal RequisitesCaterersJewellerymore.. </p></a>
+                        <p class="m-0">
+                        Banquet HallsBridal RequisitesCaterersJewellerymore.. </a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -469,8 +457,8 @@
                         <br>
                         <h5 class="mb-2"> PERSONAL CARE</h5>
 
-
-                        Beauty Parlours, Spas, Salons, Beauty Services more.. </p></a>
+                        <p class="m-0">
+                        Beauty Parlours, Spas, Salons, Beauty Services more.. </a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -482,21 +470,21 @@
                         <br>
                         <h5 class="mb-2"> JOBS</h5>
 
-
-                        Placement Services, Search Jobs,Over,seas Jobs more.. </p></a>
+                        <p class="m-0">
+                        Placement Services, Search Jobs,Over,seas Jobs more.. </a></p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                       <a href=".php"> <img style="height: 100px; width: 100px;"
+                       <a href="#"> <img style="height: 100px; width: 100px;"
                             src="img/agriculture.jpg" alt="" /><br>
 
                         <br>
                         <h5 class="mb-2">Agriculture</h5>
 
-
-                     Food, Fibers, crops ,  Raw Material   &    more.. </p></a>
+                        <p class="m-0">
+                     Food, Fibers, crops ,  Raw Material   &    more.. </a></p>
                     </div>
                 </div>
 
@@ -514,8 +502,8 @@
                         <br>
                         <h5 class="mb-2">Astrology</h5>
 
-
-                     psychic Reading, Numorology & more.. </p></a>
+                        <p class="m-0">
+                     psychic Reading, Numorology & more.. </a></p>
                     </div>
                 </div>
 
@@ -528,8 +516,8 @@
                         <br>
                         <h5 class="mb-2">Baby Care</h5>
 
-
-                        Dressing newborn, Swadding, and more.. </p></a>
+                        <p class="m-0">
+                        Dressing newborn, Swadding, and more.. </a></p>
                     </div>
                 </div>
 
@@ -541,8 +529,8 @@
                         <br>
                         <h5 class="mb-2">Sports</h5>
 
-
-                     Crickets, Footbolls & more.. </p></a>
+                        <p class="m-0">
+                     Crickets, Footbolls, Badminton, Tennis & More.. </a></p>
                     </div>
                 </div>
 
@@ -554,62 +542,62 @@
                         <br>
                         <h5 class="mb-2">Fitness</h5>
 
-
-                     Gym and Yoga & more.. </p></a>
+                        <p class="m-0">
+                     Gym and Yoga & more.. </a></p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                       <a href=".php"> <img style="height: 100px; width: 100px;"
+                       <a href="#"> <img style="height: 100px; width: 100px;"
                             src="img/dailyneed.png" alt="" /><br>
 
                         <br>
                         <h5 class="mb-2">Daily Needs</h5>
 
-
-                     Grocery, Bigbasket & more.. </p></a>
+                        <p class="m-0">
+                     Grocery, Bigbasket & more.. </a></p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                       <a href=".php"> <img style="height: 100px; width: 100px;"
+                       <a href="#"> <img style="height: 100px; width: 100px;"
                             src="img/courier.jpg" alt="" /><br>
 
                         <br>
-                        <h5 class="mb-2">Couriar</h5>
+                        <h5 class="mb-2">Couriers</h5>
 
-
-                     International Couriar service, Office couriar & more.. </p></a>
+                        <p class="m-0">
+                     International Couriar service, Office couriar & more.. </a></p>
                     </div>
                 </div>
 
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                       <a href=".php"> <img style="height: 100px; width: 100px;"
+                       <a href="#"> <img style="height: 100px; width: 100px;"
                             src="img/civilcontractor.png" alt="" /><br>
 
                         <br>
-                        <h5 class="mb-2">civil Contractor</h5>
+                        <h5 class="mb-2">Civil Contractor</h5>
 
-
-                     Builders, Constructors, Civil Constructors & more.. </p></a>
+                        <p class="m-0">
+                     Builders, Constructors, Civil Constructors & more.. </a></p>
                     </div>
                 </div>
 
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                       <a href=".php"> <img style="height: 100px; width: 100px;"
+                       <a href="chemist1.php"> <img style="height: 100px; width: 100px;"
                             src="img/chemist.jpg" alt="" /><br>
 
                         <br>
                         <h5 class="mb-2">Chemist</h5>
 
-
-                     Medical Store, Medicine, Surgical equipment & more.. </p></a>
+                        <p class="m-0">
+                     Medical Store, Medicine, Surgical equipment & more.. </a></p>
                     </div>
                 </div>
 
@@ -622,21 +610,21 @@
                         <br>
                         <h5 class="mb-2">Books</h5>
 
-
-                     History Books, Comedy, Magics Books & more.. </p></a>
+                        <p class="m-0">
+                     History Books, Comedy, Magics Books & more.. </a></p>
                     </div>
                 </div>
  
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                       <a href=".php"> <img style="height: 100px; width: 100px;"
+                       <a href="#"> <img style="height: 100px; width: 100px;"
                             src="img/hotelimage.jpg" alt="" /><br>
 
                         <br>
                         <h5 class="mb-2">Hotels</h5>
 
-
-                     Luxury Hotel, simple Hotels, budget hotels & more.. </p></a>
+                        <p class="m-0">
+                     Luxury Hotel, simple Hotels, budget hotels & more.. </a></p>
                     </div>
                 </div>
 
@@ -649,22 +637,22 @@
                         <br>
                         <h5 class="mb-2">Pest Control</h5>
 
-
-                     Mouse,  cockroch,  Fungus, Ant & more.. </p></a>
+                        <p class="m-0">
+                     Mouse,  cockroch,  Fungus, Ant & more..</a> </p>
                     </div>
                 </div>
 
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                       <a href=".php"> <img style="height: 100px; width: 100px;"
+                       <a href="picker1.php"> <img style="height: 100px; width: 100px;"
                             src="img/packermover.jpg" alt="" /><br>
 
                         <br>
                         <h5 class="mb-2">Packers & Movers</h5>
+                        <p class="m-0">
 
-
-                     Domestic shifting, House & Office shifitng & more.. </p></a>
+                     Domestic shifting, House & Office shifitng & more.. </a></p>
                     </div>
                 </div>
 
@@ -676,21 +664,21 @@
                         <br>
                         <h5 class="mb-2">Furniture</h5>
 
-
-                     Dinnig Table, Bedroom & Office Furniture & more.. </p></a>
+                        <p class="m-0">
+                     Dinnig Table, Bedroom & Office Furniture & more.. </a></p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                       <a href=".php"> <img style="height: 100px; width: 100px;"
+                       <a href="#"> <img style="height: 100px; width: 100px;"
                             src="img/cateres.jpg" alt="" /><br>
 
                         <br>
-                        <h5 class="mb-2">Cateres</h5>
+                        <h5 class="mb-2">Caterers</h5>
 
-
-                     Parties, Wedding catering, Outdoors & more.. </p></a>
+                        <p class="m-0">
+                     Parties, Wedding catering, Outdoors & more.. </a></p>
                     </div>
                 </div>
             </div>
@@ -787,4 +775,4 @@
     <script src="js/main.js"></script>
 </body>
 
-</php>
+</html>
